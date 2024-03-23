@@ -1,0 +1,87 @@
+[
+    {
+        "name" : "Airtime",
+        "icon" : "airtime",
+        "balance" : "KES 23.46",
+        "expiry" : "2037-01-01",
+        "altLabel" : "Prepaid Balance",
+        "altBalance" : "23",
+        "hasSecondaryAction" : true,
+        "primaryAction" : {
+            "label" : "Sambaza",
+            "action" : "top-up" 
+        },
+        "secondaryAction" : {
+            "label" : "Top Up",
+            "action" : "top-up"
+        }
+    },
+    {
+        "name" : "Data",
+        "icon" : "data",
+        "balance" : "7,371.67 MBs",
+        "expiry" : "2037-01-01",
+        "altLabel" : "Data Bundle",
+        "altBalance" : "7,371",
+        "hasSecondaryAction" : true,
+        "primaryAction" : {
+            "label" : "Share/Request Data",
+            "action" : "share-data" 
+        },
+        "secondaryAction" : {
+            "label" : "Buy Data",
+            "action" : "top-up"
+        }
+    },
+    {
+        "name" : "Voice",
+        "icon" : "call",
+        "balance" : "165.25 Minutes",
+        "expiry" : "2037-01-01",
+        "altLabel" : "Easy Talk Minutes",
+        "altBalance" : "165",
+        "hasSecondaryAction" : false,
+        "primaryAction" : {
+            "label" : "Share/Request Data",
+            "action" : "share-data" 
+        },
+        "secondaryAction" : {
+            "label" : "",
+            "action" : ""
+        }
+    },
+    {
+        "name" : "SMS",
+        "icon" : "sms",
+        "balance" : "479 Items",
+        "expiry" : "2037-01-01",
+        "altLabel" : "Easy SMS",
+        "altBalance" : "479",
+        "hasSecondaryAction" : false,
+        "primaryAction" : {
+            "label" : "Share/Request Data",
+            "action" : "share-data" 
+        },
+        "secondaryAction" : {
+            "label" : "",
+            "action" : ""
+        }
+    },
+    {
+        "name" : "Bonga",
+        "icon" : "pot",
+        "balance" : "6,781.65 Points",
+        "expiry" : "2037-01-01",
+        "altLabel" : "Bonga Balance",
+        "altBalance" : "6,781",
+        "hasSecondaryAction" : true,
+        "primaryAction" : {
+            "label" : "Transfer",
+            "action" : "transfer" 
+        },
+        "secondaryAction" : {
+            "label" : "Redeem",
+            "action" : "redeem"
+        }
+    }
+]

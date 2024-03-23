@@ -17,6 +17,7 @@ struct MainView: View {
                     Text("Home")
                 }
                 .tag(0)
+               
 
             MpesaView()
                 .tabItem {

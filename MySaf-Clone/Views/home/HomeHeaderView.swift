@@ -37,7 +37,9 @@ struct HomeHeaderView: View {
 
                 Spacer()
 
-                Button(action: {}, label: {
+                Button(action: {
+                  
+                }, label: {
                     Image(systemName: "magnifyingglass")
                         .foregroundStyle(.white)
                 })

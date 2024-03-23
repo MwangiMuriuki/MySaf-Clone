@@ -19,6 +19,27 @@
 		191680C82BADEDEB00A9A985 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191680C72BADEDEB00A9A985 /* HomeHeaderView.swift */; };
 		191680CC2BAE022100A9A985 /* UpdatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191680CB2BAE022100A9A985 /* UpdatesView.swift */; };
 		191680CE2BAE071800A9A985 /* CarouselGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191680CD2BAE071800A9A985 /* CarouselGridView.swift */; };
+		191680D02BAED23700A9A985 /* CarouselImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191680CF2BAED23700A9A985 /* CarouselImageModel.swift */; };
+		191680D32BAED86E00A9A985 /* UpdatesImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191680D22BAED86E00A9A985 /* UpdatesImageModel.swift */; };
+		191680D52BAEDA1500A9A985 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191680D42BAEDA1500A9A985 /* CardModel.swift */; };
+		191680DA2BAEE98E00A9A985 /* HomeCardItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191680D92BAEE98E00A9A985 /* HomeCardItemsView.swift */; };
+		191680DE2BAF1E4F00A9A985 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191680DD2BAF1E4F00A9A985 /* DataManager.swift */; };
+		191680E02BAF1ED400A9A985 /* HomeCardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191680DF2BAF1ED400A9A985 /* HomeCardData.swift */; };
+		191680E42BAF1FCA00A9A985 /* homeCardsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 191680E22BAF1FCA00A9A985 /* homeCardsData.json */; };
+		191680E52BAF1FCA00A9A985 /* accountBalances.json in Resources */ = {isa = PBXBuildFile; fileRef = 191680E32BAF1FCA00A9A985 /* accountBalances.json */; };
+		191680E72BAF200700A9A985 /* HomeViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191680E62BAF200700A9A985 /* HomeViewViewModel.swift */; };
+		19BD3F0E2BAF2927000A1DFD /* AccountBalancesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F0D2BAF2926000A1DFD /* AccountBalancesView.swift */; };
+		19BD3F102BAF2FEC000A1DFD /* PageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F0F2BAF2FEC000A1DFD /* PageType.swift */; };
+		19BD3F122BAF37A8000A1DFD /* SendMoneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F112BAF37A8000A1DFD /* SendMoneyView.swift */; };
+		19BD3F142BAF37CD000A1DFD /* HomeInternetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F132BAF37CD000A1DFD /* HomeInternetView.swift */; };
+		19BD3F162BAF3970000A1DFD /* ChatbotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F152BAF3970000A1DFD /* ChatbotView.swift */; };
+		19BD3F182BAF39A4000A1DFD /* LipaNaMpesaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F172BAF39A4000A1DFD /* LipaNaMpesaView.swift */; };
+		19BD3F1A2BAF39F6000A1DFD /* DataCallsSMSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F192BAF39F6000A1DFD /* DataCallsSMSView.swift */; };
+		19BD3F1C2BAF3A26000A1DFD /* MyUsageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F1B2BAF3A26000A1DFD /* MyUsageView.swift */; };
+		19BD3F1E2BAF3A49000A1DFD /* TunukiwaOffersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F1D2BAF3A49000A1DFD /* TunukiwaOffersView.swift */; };
+		19BD3F202BAF3A6F000A1DFD /* AirtimeTopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F1F2BAF3A6F000A1DFD /* AirtimeTopupView.swift */; };
+		19BD3F222BAF3A8E000A1DFD /* BongaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F212BAF3A8E000A1DFD /* BongaView.swift */; };
+		19BD3F242BAF3AC2000A1DFD /* SHookBundlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F232BAF3AC2000A1DFD /* SHookBundlesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +56,27 @@
 		191680C72BADEDEB00A9A985 /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
 		191680CB2BAE022100A9A985 /* UpdatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatesView.swift; sourceTree = "<group>"; };
 		191680CD2BAE071800A9A985 /* CarouselGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselGridView.swift; sourceTree = "<group>"; };
+		191680CF2BAED23700A9A985 /* CarouselImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselImageModel.swift; sourceTree = "<group>"; };
+		191680D22BAED86E00A9A985 /* UpdatesImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatesImageModel.swift; sourceTree = "<group>"; };
+		191680D42BAEDA1500A9A985 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		191680D92BAEE98E00A9A985 /* HomeCardItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCardItemsView.swift; sourceTree = "<group>"; };
+		191680DD2BAF1E4F00A9A985 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		191680DF2BAF1ED400A9A985 /* HomeCardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCardData.swift; sourceTree = "<group>"; };
+		191680E22BAF1FCA00A9A985 /* homeCardsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = homeCardsData.json; sourceTree = "<group>"; };
+		191680E32BAF1FCA00A9A985 /* accountBalances.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = accountBalances.json; sourceTree = "<group>"; };
+		191680E62BAF200700A9A985 /* HomeViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewViewModel.swift; sourceTree = "<group>"; };
+		19BD3F0D2BAF2926000A1DFD /* AccountBalancesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalancesView.swift; sourceTree = "<group>"; };
+		19BD3F0F2BAF2FEC000A1DFD /* PageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageType.swift; sourceTree = "<group>"; };
+		19BD3F112BAF37A8000A1DFD /* SendMoneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMoneyView.swift; sourceTree = "<group>"; };
+		19BD3F132BAF37CD000A1DFD /* HomeInternetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInternetView.swift; sourceTree = "<group>"; };
+		19BD3F152BAF3970000A1DFD /* ChatbotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatbotView.swift; sourceTree = "<group>"; };
+		19BD3F172BAF39A4000A1DFD /* LipaNaMpesaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LipaNaMpesaView.swift; sourceTree = "<group>"; };
+		19BD3F192BAF39F6000A1DFD /* DataCallsSMSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCallsSMSView.swift; sourceTree = "<group>"; };
+		19BD3F1B2BAF3A26000A1DFD /* MyUsageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUsageView.swift; sourceTree = "<group>"; };
+		19BD3F1D2BAF3A49000A1DFD /* TunukiwaOffersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunukiwaOffersView.swift; sourceTree = "<group>"; };
+		19BD3F1F2BAF3A6F000A1DFD /* AirtimeTopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirtimeTopupView.swift; sourceTree = "<group>"; };
+		19BD3F212BAF3A8E000A1DFD /* BongaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BongaView.swift; sourceTree = "<group>"; };
+		19BD3F232BAF3AC2000A1DFD /* SHookBundlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHookBundlesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,9 +109,12 @@
 		191680AB2BADA69400A9A985 /* MySaf-Clone */ = {
 			isa = PBXGroup;
 			children = (
+				191680E12BAF1F9E00A9A985 /* DataFiles */,
+				191680DC2BAF1E4000A9A985 /* Services */,
+				191680DB2BAEF38400A9A985 /* Resources */,
+				191680D12BAED62400A9A985 /* viewmodels */,
 				191680C92BADEF3700A9A985 /* models */,
-				191680C62BADEDB400A9A985 /* core */,
-				191680BA2BADA7AF00A9A985 /* views */,
+				191680C62BADEDB400A9A985 /* Views */,
 				191680B02BADA69500A9A985 /* Assets.xcassets */,
 				191680B22BADA69500A9A985 /* Preview Content */,
 			);
@@ -84,43 +129,141 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		191680BA2BADA7AF00A9A985 /* views */ = {
+		191680C62BADEDB400A9A985 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				191680CA2BAE01AD00A9A985 /* Home Page Views */,
+				19BD3F0C2BAF28CE000A1DFD /* utilities */,
+				19BD3F0B2BAF28AA000A1DFD /* otherViews */,
+				19BD3F0A2BAF286D000A1DFD /* core */,
+				19BD3F092BAF280A000A1DFD /* account */,
+				19BD3F082BAF27FD000A1DFD /* discover */,
+				19BD3F072BAF27F3000A1DFD /* mpesa */,
+				19BD3F062BAF27EC000A1DFD /* home */,
 			);
-			path = views;
-			sourceTree = "<group>";
-		};
-		191680C62BADEDB400A9A985 /* core */ = {
-			isa = PBXGroup;
-			children = (
-				191680AC2BADA69400A9A985 /* MySaf_CloneApp.swift */,
-				191680AE2BADA69400A9A985 /* MainView.swift */,
-				191680BB2BADA7D100A9A985 /* HomeView.swift */,
-				191680BD2BADA83400A9A985 /* MpesaView.swift */,
-				191680BF2BADA84A00A9A985 /* DiscoverView.swift */,
-				191680C12BADA85B00A9A985 /* AccountView.swift */,
-				191680C42BADAB7000A9A985 /* UtilitiesView.swift */,
-			);
-			path = core;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		191680C92BADEF3700A9A985 /* models */ = {
 			isa = PBXGroup;
 			children = (
+				191680D62BAEDA1900A9A985 /* home */,
+				19BD3F0F2BAF2FEC000A1DFD /* PageType.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
 		};
-		191680CA2BAE01AD00A9A985 /* Home Page Views */ = {
+		191680D12BAED62400A9A985 /* viewmodels */ = {
 			isa = PBXGroup;
 			children = (
+				191680E62BAF200700A9A985 /* HomeViewViewModel.swift */,
+			);
+			path = viewmodels;
+			sourceTree = "<group>";
+		};
+		191680D62BAEDA1900A9A985 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				191680CF2BAED23700A9A985 /* CarouselImageModel.swift */,
+				191680D22BAED86E00A9A985 /* UpdatesImageModel.swift */,
+				191680D42BAEDA1500A9A985 /* CardModel.swift */,
+				191680DF2BAF1ED400A9A985 /* HomeCardData.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		191680DB2BAEF38400A9A985 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		191680DC2BAF1E4000A9A985 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				191680DD2BAF1E4F00A9A985 /* DataManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		191680E12BAF1F9E00A9A985 /* DataFiles */ = {
+			isa = PBXGroup;
+			children = (
+				191680E32BAF1FCA00A9A985 /* accountBalances.json */,
+				191680E22BAF1FCA00A9A985 /* homeCardsData.json */,
+			);
+			path = DataFiles;
+			sourceTree = "<group>";
+		};
+		19BD3F062BAF27EC000A1DFD /* home */ = {
+			isa = PBXGroup;
+			children = (
+				191680BB2BADA7D100A9A985 /* HomeView.swift */,
 				191680C72BADEDEB00A9A985 /* HomeHeaderView.swift */,
 				191680CB2BAE022100A9A985 /* UpdatesView.swift */,
 				191680CD2BAE071800A9A985 /* CarouselGridView.swift */,
+				191680D92BAEE98E00A9A985 /* HomeCardItemsView.swift */,
 			);
-			path = "Home Page Views";
+			path = home;
+			sourceTree = "<group>";
+		};
+		19BD3F072BAF27F3000A1DFD /* mpesa */ = {
+			isa = PBXGroup;
+			children = (
+				191680BD2BADA83400A9A985 /* MpesaView.swift */,
+				19BD3F172BAF39A4000A1DFD /* LipaNaMpesaView.swift */,
+			);
+			path = mpesa;
+			sourceTree = "<group>";
+		};
+		19BD3F082BAF27FD000A1DFD /* discover */ = {
+			isa = PBXGroup;
+			children = (
+				191680BF2BADA84A00A9A985 /* DiscoverView.swift */,
+			);
+			path = discover;
+			sourceTree = "<group>";
+		};
+		19BD3F092BAF280A000A1DFD /* account */ = {
+			isa = PBXGroup;
+			children = (
+				191680C12BADA85B00A9A985 /* AccountView.swift */,
+			);
+			path = account;
+			sourceTree = "<group>";
+		};
+		19BD3F0A2BAF286D000A1DFD /* core */ = {
+			isa = PBXGroup;
+			children = (
+				191680AC2BADA69400A9A985 /* MySaf_CloneApp.swift */,
+				191680AE2BADA69400A9A985 /* MainView.swift */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		19BD3F0B2BAF28AA000A1DFD /* otherViews */ = {
+			isa = PBXGroup;
+			children = (
+				19BD3F0D2BAF2926000A1DFD /* AccountBalancesView.swift */,
+				19BD3F112BAF37A8000A1DFD /* SendMoneyView.swift */,
+				19BD3F132BAF37CD000A1DFD /* HomeInternetView.swift */,
+				19BD3F152BAF3970000A1DFD /* ChatbotView.swift */,
+				19BD3F192BAF39F6000A1DFD /* DataCallsSMSView.swift */,
+				19BD3F1B2BAF3A26000A1DFD /* MyUsageView.swift */,
+				19BD3F1D2BAF3A49000A1DFD /* TunukiwaOffersView.swift */,
+				19BD3F1F2BAF3A6F000A1DFD /* AirtimeTopupView.swift */,
+				19BD3F212BAF3A8E000A1DFD /* BongaView.swift */,
+				19BD3F232BAF3AC2000A1DFD /* SHookBundlesView.swift */,
+			);
+			path = otherViews;
+			sourceTree = "<group>";
+		};
+		19BD3F0C2BAF28CE000A1DFD /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				191680C42BADAB7000A9A985 /* UtilitiesView.swift */,
+			);
+			path = utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +325,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				191680B42BADA69500A9A985 /* Preview Assets.xcassets in Resources */,
+				191680E42BAF1FCA00A9A985 /* homeCardsData.json in Resources */,
+				191680E52BAF1FCA00A9A985 /* accountBalances.json in Resources */,
 				191680B12BADA69500A9A985 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,16 +338,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19BD3F162BAF3970000A1DFD /* ChatbotView.swift in Sources */,
+				191680D02BAED23700A9A985 /* CarouselImageModel.swift in Sources */,
+				191680DE2BAF1E4F00A9A985 /* DataManager.swift in Sources */,
 				191680CC2BAE022100A9A985 /* UpdatesView.swift in Sources */,
+				19BD3F142BAF37CD000A1DFD /* HomeInternetView.swift in Sources */,
+				19BD3F122BAF37A8000A1DFD /* SendMoneyView.swift in Sources */,
+				19BD3F182BAF39A4000A1DFD /* LipaNaMpesaView.swift in Sources */,
 				191680C22BADA85B00A9A985 /* AccountView.swift in Sources */,
+				19BD3F222BAF3A8E000A1DFD /* BongaView.swift in Sources */,
+				19BD3F1C2BAF3A26000A1DFD /* MyUsageView.swift in Sources */,
 				191680BC2BADA7D100A9A985 /* HomeView.swift in Sources */,
+				191680E02BAF1ED400A9A985 /* HomeCardData.swift in Sources */,
+				191680D32BAED86E00A9A985 /* UpdatesImageModel.swift in Sources */,
 				191680AF2BADA69400A9A985 /* MainView.swift in Sources */,
+				19BD3F242BAF3AC2000A1DFD /* SHookBundlesView.swift in Sources */,
+				191680DA2BAEE98E00A9A985 /* HomeCardItemsView.swift in Sources */,
+				19BD3F0E2BAF2927000A1DFD /* AccountBalancesView.swift in Sources */,
 				191680CE2BAE071800A9A985 /* CarouselGridView.swift in Sources */,
 				191680C02BADA84A00A9A985 /* DiscoverView.swift in Sources */,
+				19BD3F1A2BAF39F6000A1DFD /* DataCallsSMSView.swift in Sources */,
 				191680C82BADEDEB00A9A985 /* HomeHeaderView.swift in Sources */,
 				191680AD2BADA69400A9A985 /* MySaf_CloneApp.swift in Sources */,
 				191680BE2BADA83400A9A985 /* MpesaView.swift in Sources */,
+				191680D52BAEDA1500A9A985 /* CardModel.swift in Sources */,
+				191680E72BAF200700A9A985 /* HomeViewViewModel.swift in Sources */,
+				19BD3F1E2BAF3A49000A1DFD /* TunukiwaOffersView.swift in Sources */,
+				19BD3F202BAF3A6F000A1DFD /* AirtimeTopupView.swift in Sources */,
 				191680C52BADAB7000A9A985 /* UtilitiesView.swift in Sources */,
+				19BD3F102BAF2FEC000A1DFD /* PageType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

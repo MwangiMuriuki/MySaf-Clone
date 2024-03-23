@@ -1,0 +1,57 @@
+{
+    "carouselCardOptions": [
+        {
+            "name" : "Ask Zuri",
+            "icon" : "girl",
+            "type" : "ask_zuri"
+        },
+        {
+            "name" : "Send Money",
+            "icon" : "send",
+            "type" : "send_money"
+        }
+    ],
+
+    "mainCardOptions" : [
+        {
+            "name" : "Data, Calls, SMS & Airtime",
+            "icon" : "airtime",
+            "type" : "data_calls_airtime"
+        },
+        {
+            "name" : "Lipa na M-PESA",
+            "icon" : "basket",
+            "type" : "lipa_na_mpesa"
+        },
+        {
+            "name" : "My Usage",
+            "icon" : "chart",
+            "type" : "my_usage"
+        },
+        {
+            "name" : "Home Internet",
+            "icon" : "home",
+            "type" : "home_internet"
+        },
+        {
+            "name" : "Tunukiwa Offers",
+            "icon" : "gift",
+            "type" : "tunukiwa_offers"
+        },
+        {
+            "name" : "Airtime Top Up",
+            "icon" : "call",
+            "type" : "airtime_top_up"
+        },
+        {
+            "name" : "Bonga",
+            "icon" : "pot",
+            "type" : "bonga"
+        },
+        {
+            "name" : "S-Hook Bundles",
+            "icon" : "hook",
+            "type" : "s_hook_bundles"
+        }
+    ]
+}

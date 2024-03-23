@@ -12,15 +12,20 @@ struct UpdatesView: View {
         HStack{
             ScrollView(.horizontal) {
                 LazyHStack(alignment: .center, spacing: 15, content: {
-                    ForEach(1...4, id: \.self) { count in
+                    ForEach(statusPics, id: \.self) { count in
                         ZStack{
+
+                            Image(count.name)
+                                .resizable()
+                                .frame(width: 80, height: 80)
+                                .clipShape(Circle())
+
                             RoundedRectangle(cornerRadius: 40, style: /*@START_MENU_TOKEN@*/.continuous/*@END_MENU_TOKEN@*/)
                                 .strokeBorder(style: .init(lineWidth: 2))
                                 .foregroundStyle(.primaryGreen)
                                 .frame(width: 80, height: 80)
                                 .overlay(
                                     Image(systemName: "person.fill")
-                                    
                                 )
 
                         }
@@ -36,3 +41,11 @@ struct UpdatesView: View {
 #Preview {
     UpdatesView()
 }
+
+let statusPics: [UpdatesImageModel] = [
+    UpdatesImageModel(name: "status1"),
+    UpdatesImageModel(name: "status2"),
+    UpdatesImageModel(name: "status3"),
+    UpdatesImageModel(name: "status4"),
+    UpdatesImageModel(name: "status5")
+]
