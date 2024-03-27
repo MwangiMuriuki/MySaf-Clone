@@ -15,7 +15,7 @@ struct HomeView: View {
     
     var body: some View {
         NavigationView{
-            VStack(content: {
+            VStack(alignment: .leading, content: {
                 // MARK: - Header Section
                 HomeHeaderView()
 
@@ -42,6 +42,52 @@ struct HomeView: View {
                     .padding(.leading, 8)
                     .padding(.trailing, 8)
                     .padding(.bottom, 8)
+
+                    // MARK: - Hot Deals Section
+                    VStack(content: {
+                        Text("HOT DEALS")
+                            .font(.custom("AvenirNext-Medium", size: 16))
+                            .foregroundStyle(Color.gray)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+
+                        ScrollView(.horizontal) {
+                            LazyHStack(alignment: .center, spacing: 10, content: {
+                                ForEach(viewModel.hotDealsData) { item in
+                                    HotDealsView(model: item)
+                                }
+                            })
+                        }
+                        .springLoadingBehavior(.disabled)
+
+                    })
+                    .padding(.leading, 8)
+                    .padding(.trailing, 8)
+
+
+                    // MARK: - For You Section
+                    VStack(content: {
+                        Text("FOR YOU")
+                            .font(.custom("AvenirNext-Medium", size: 16))
+                            .foregroundStyle(Color.gray)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+
+                        TabView{
+                            ForEach(carouselPics, id: \.self) { item in
+                                Image(item.name)
+                                    .resizable()
+                                    .scaledToFill()
+                            }
+                        }
+                        .tabViewStyle(.page)
+                        .indexViewStyle(.page(backgroundDisplayMode: .automatic))
+                        .frame(height: 150)
+                        .shadow(radius: 2)
+                        
+                    })
+                    .padding(.leading, 8)
+                    .padding(.trailing, 8)
+                    .padding(.bottom, 20)
+
 
                 }
                 .padding(.top, 30)

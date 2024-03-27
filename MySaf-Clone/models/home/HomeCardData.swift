@@ -10,5 +10,6 @@ import Foundation
 struct HomeCardData: Codable, Hashable{
     let carouselCardOptions: [CardModel]
     let mainCardOptions: [CardModel]
+    let hotDeals: [HotDealsModel]
 }
 

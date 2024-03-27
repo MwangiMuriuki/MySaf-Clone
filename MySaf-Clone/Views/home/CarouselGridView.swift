@@ -11,18 +11,6 @@ struct CarouselGridView: View {
 
     @EnvironmentObject var viewModel : HomeViewViewModel
 
-    let carouselPics: [CarouselImageModel] = [
-    CarouselImageModel(name: "pic1"),
-    CarouselImageModel(name: "pic2"),
-    CarouselImageModel(name: "pic3"),
-    CarouselImageModel(name: "pic4"),
-    CarouselImageModel(name: "pic5"),
-    CarouselImageModel(name: "pic6")]
-
-//    let menuOptions: [HomeMenuOptionsModel] = [
-//        HomeMenuOptionsModel(name: "Ask Zuri", icon: "person.circle.fill")
-//    ]
-
     var body: some View {
         HStack{
 
@@ -79,4 +67,12 @@ struct CarouselGridView: View {
     CarouselGridView()
         .environmentObject(HomeViewViewModel())
 }
+
+let carouselPics: [CarouselImageModel] = [
+CarouselImageModel(name: "pic1"),
+CarouselImageModel(name: "pic2"),
+CarouselImageModel(name: "pic3"),
+CarouselImageModel(name: "pic4"),
+CarouselImageModel(name: "pic5"),
+CarouselImageModel(name: "pic6")]
 

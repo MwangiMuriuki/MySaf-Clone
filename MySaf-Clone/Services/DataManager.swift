@@ -8,26 +8,24 @@
 import Foundation
 
 
+/// All Data Calls are made from this class
 final class DataManager{
     init(){}
 
     func fetchMenuData(completion: @escaping (HomeCardData) -> Void) {
             guard let url = Bundle.main.url(forResource: "homeCardsData", withExtension: "json") else {
                 print("Error: Failed to find JSON file")
-//                completion([])
                 return
             }
 
             URLSession.shared.dataTask(with: url) { data, _, error in
                 if let error = error {
                     print("Error: Error fetching data: \(error)")
-//                    completion([])
                     return
                 }
 
                 guard let jsonData = data else {
                     print("Error: No data found")
-//                    completion([])
                     return
                 }
 
@@ -38,8 +36,10 @@ final class DataManager{
                     print("Data Fetched: ", decodedData)
                 } catch {
                     print("Error: Error decoding JSON File: ", String(describing: error))
-//                    completion([])
                 }
             }.resume()
         }
+
+
+   
 }

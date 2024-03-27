@@ -25,7 +25,6 @@
 		191680DA2BAEE98E00A9A985 /* HomeCardItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191680D92BAEE98E00A9A985 /* HomeCardItemsView.swift */; };
 		191680DE2BAF1E4F00A9A985 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191680DD2BAF1E4F00A9A985 /* DataManager.swift */; };
 		191680E02BAF1ED400A9A985 /* HomeCardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191680DF2BAF1ED400A9A985 /* HomeCardData.swift */; };
-		191680E42BAF1FCA00A9A985 /* homeCardsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 191680E22BAF1FCA00A9A985 /* homeCardsData.json */; };
 		191680E52BAF1FCA00A9A985 /* accountBalances.json in Resources */ = {isa = PBXBuildFile; fileRef = 191680E32BAF1FCA00A9A985 /* accountBalances.json */; };
 		191680E72BAF200700A9A985 /* HomeViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191680E62BAF200700A9A985 /* HomeViewViewModel.swift */; };
 		19BD3F0E2BAF2927000A1DFD /* AccountBalancesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F0D2BAF2926000A1DFD /* AccountBalancesView.swift */; };
@@ -40,6 +39,9 @@
 		19BD3F202BAF3A6F000A1DFD /* AirtimeTopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F1F2BAF3A6F000A1DFD /* AirtimeTopupView.swift */; };
 		19BD3F222BAF3A8E000A1DFD /* BongaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F212BAF3A8E000A1DFD /* BongaView.swift */; };
 		19BD3F242BAF3AC2000A1DFD /* SHookBundlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F232BAF3AC2000A1DFD /* SHookBundlesView.swift */; };
+		19BD3F282BB095D9000A1DFD /* HotDealsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F272BB095D9000A1DFD /* HotDealsModel.swift */; };
+		19BD3F2A2BB097BD000A1DFD /* homeCardsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 19BD3F292BB097BD000A1DFD /* homeCardsData.json */; };
+		19BD3F2C2BB098A2000A1DFD /* HotDealsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F2B2BB098A2000A1DFD /* HotDealsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,7 +64,6 @@
 		191680D92BAEE98E00A9A985 /* HomeCardItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCardItemsView.swift; sourceTree = "<group>"; };
 		191680DD2BAF1E4F00A9A985 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		191680DF2BAF1ED400A9A985 /* HomeCardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCardData.swift; sourceTree = "<group>"; };
-		191680E22BAF1FCA00A9A985 /* homeCardsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = homeCardsData.json; sourceTree = "<group>"; };
 		191680E32BAF1FCA00A9A985 /* accountBalances.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = accountBalances.json; sourceTree = "<group>"; };
 		191680E62BAF200700A9A985 /* HomeViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewViewModel.swift; sourceTree = "<group>"; };
 		19BD3F0D2BAF2926000A1DFD /* AccountBalancesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalancesView.swift; sourceTree = "<group>"; };
@@ -77,6 +78,9 @@
 		19BD3F1F2BAF3A6F000A1DFD /* AirtimeTopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirtimeTopupView.swift; sourceTree = "<group>"; };
 		19BD3F212BAF3A8E000A1DFD /* BongaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BongaView.swift; sourceTree = "<group>"; };
 		19BD3F232BAF3AC2000A1DFD /* SHookBundlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHookBundlesView.swift; sourceTree = "<group>"; };
+		19BD3F272BB095D9000A1DFD /* HotDealsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotDealsModel.swift; sourceTree = "<group>"; };
+		19BD3F292BB097BD000A1DFD /* homeCardsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = homeCardsData.json; path = "../../../../Dev and Code/iOS Dev/SwiftUI/MySafaricom-Clone/data/homeCardsData.json"; sourceTree = "<group>"; };
+		19BD3F2B2BB098A2000A1DFD /* HotDealsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotDealsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +171,7 @@
 				191680D22BAED86E00A9A985 /* UpdatesImageModel.swift */,
 				191680D42BAEDA1500A9A985 /* CardModel.swift */,
 				191680DF2BAF1ED400A9A985 /* HomeCardData.swift */,
+				19BD3F272BB095D9000A1DFD /* HotDealsModel.swift */,
 			);
 			path = home;
 			sourceTree = "<group>";
@@ -190,7 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				191680E32BAF1FCA00A9A985 /* accountBalances.json */,
-				191680E22BAF1FCA00A9A985 /* homeCardsData.json */,
+				19BD3F292BB097BD000A1DFD /* homeCardsData.json */,
 			);
 			path = DataFiles;
 			sourceTree = "<group>";
@@ -203,6 +208,7 @@
 				191680CB2BAE022100A9A985 /* UpdatesView.swift */,
 				191680CD2BAE071800A9A985 /* CarouselGridView.swift */,
 				191680D92BAEE98E00A9A985 /* HomeCardItemsView.swift */,
+				19BD3F2B2BB098A2000A1DFD /* HotDealsView.swift */,
 			);
 			path = home;
 			sourceTree = "<group>";
@@ -325,8 +331,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				191680B42BADA69500A9A985 /* Preview Assets.xcassets in Resources */,
-				191680E42BAF1FCA00A9A985 /* homeCardsData.json in Resources */,
 				191680E52BAF1FCA00A9A985 /* accountBalances.json in Resources */,
+				19BD3F2A2BB097BD000A1DFD /* homeCardsData.json in Resources */,
 				191680B12BADA69500A9A985 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,9 +361,11 @@
 				19BD3F242BAF3AC2000A1DFD /* SHookBundlesView.swift in Sources */,
 				191680DA2BAEE98E00A9A985 /* HomeCardItemsView.swift in Sources */,
 				19BD3F0E2BAF2927000A1DFD /* AccountBalancesView.swift in Sources */,
+				19BD3F282BB095D9000A1DFD /* HotDealsModel.swift in Sources */,
 				191680CE2BAE071800A9A985 /* CarouselGridView.swift in Sources */,
 				191680C02BADA84A00A9A985 /* DiscoverView.swift in Sources */,
 				19BD3F1A2BAF39F6000A1DFD /* DataCallsSMSView.swift in Sources */,
+				19BD3F2C2BB098A2000A1DFD /* HotDealsView.swift in Sources */,
 				191680C82BADEDEB00A9A985 /* HomeHeaderView.swift in Sources */,
 				191680AD2BADA69400A9A985 /* MySaf_CloneApp.swift in Sources */,
 				191680BE2BADA83400A9A985 /* MpesaView.swift in Sources */,
