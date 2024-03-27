@@ -31,6 +31,7 @@ struct HomeCardItemsView: View {
                         Text(model.name)
                             .font(.custom("AvenirNext-Medium", size: 16))
                             .foregroundStyle(Color.primaryGreen)
+                            .multilineTextAlignment(.leading)
 
                         Spacer()
                     }

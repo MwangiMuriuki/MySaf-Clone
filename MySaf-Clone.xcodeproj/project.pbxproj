@@ -42,6 +42,8 @@
 		19BD3F282BB095D9000A1DFD /* HotDealsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F272BB095D9000A1DFD /* HotDealsModel.swift */; };
 		19BD3F2A2BB097BD000A1DFD /* homeCardsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 19BD3F292BB097BD000A1DFD /* homeCardsData.json */; };
 		19BD3F2C2BB098A2000A1DFD /* HotDealsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F2B2BB098A2000A1DFD /* HotDealsView.swift */; };
+		19BD3F2E2BB47237000A1DFD /* AccountBalancesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F2D2BB47237000A1DFD /* AccountBalancesModel.swift */; };
+		19BD3F302BB47321000A1DFD /* AccountBalancesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F2F2BB47321000A1DFD /* AccountBalancesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +83,8 @@
 		19BD3F272BB095D9000A1DFD /* HotDealsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotDealsModel.swift; sourceTree = "<group>"; };
 		19BD3F292BB097BD000A1DFD /* homeCardsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = homeCardsData.json; path = "../../../../Dev and Code/iOS Dev/SwiftUI/MySafaricom-Clone/data/homeCardsData.json"; sourceTree = "<group>"; };
 		19BD3F2B2BB098A2000A1DFD /* HotDealsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotDealsView.swift; sourceTree = "<group>"; };
+		19BD3F2D2BB47237000A1DFD /* AccountBalancesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalancesModel.swift; sourceTree = "<group>"; };
+		19BD3F2F2BB47321000A1DFD /* AccountBalancesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalancesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				191680E62BAF200700A9A985 /* HomeViewViewModel.swift */,
+				19BD3F2F2BB47321000A1DFD /* AccountBalancesViewModel.swift */,
 			);
 			path = viewmodels;
 			sourceTree = "<group>";
@@ -172,6 +177,7 @@
 				191680D42BAEDA1500A9A985 /* CardModel.swift */,
 				191680DF2BAF1ED400A9A985 /* HomeCardData.swift */,
 				19BD3F272BB095D9000A1DFD /* HotDealsModel.swift */,
+				19BD3F2D2BB47237000A1DFD /* AccountBalancesModel.swift */,
 			);
 			path = home;
 			sourceTree = "<group>";
@@ -356,6 +362,8 @@
 				19BD3F1C2BAF3A26000A1DFD /* MyUsageView.swift in Sources */,
 				191680BC2BADA7D100A9A985 /* HomeView.swift in Sources */,
 				191680E02BAF1ED400A9A985 /* HomeCardData.swift in Sources */,
+				19BD3F2E2BB47237000A1DFD /* AccountBalancesModel.swift in Sources */,
+				19BD3F302BB47321000A1DFD /* AccountBalancesViewModel.swift in Sources */,
 				191680D32BAED86E00A9A985 /* UpdatesImageModel.swift in Sources */,
 				191680AF2BADA69400A9A985 /* MainView.swift in Sources */,
 				19BD3F242BAF3AC2000A1DFD /* SHookBundlesView.swift in Sources */,

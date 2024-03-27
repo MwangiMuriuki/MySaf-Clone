@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "name" : "Airtime",
         "icon" : "airtime",
         "balance" : "KES 23.46",
@@ -9,7 +10,7 @@
         "hasSecondaryAction" : true,
         "primaryAction" : {
             "label" : "Sambaza",
-            "action" : "top-up" 
+            "action" : "top-up"
         },
         "secondaryAction" : {
             "label" : "Top Up",
@@ -17,6 +18,7 @@
         }
     },
     {
+        "id": 2,
         "name" : "Data",
         "icon" : "data",
         "balance" : "7,371.67 MBs",
@@ -26,7 +28,7 @@
         "hasSecondaryAction" : true,
         "primaryAction" : {
             "label" : "Share/Request Data",
-            "action" : "share-data" 
+            "action" : "share-data"
         },
         "secondaryAction" : {
             "label" : "Buy Data",
@@ -34,6 +36,7 @@
         }
     },
     {
+        "id": 3,
         "name" : "Voice",
         "icon" : "call",
         "balance" : "165.25 Minutes",
@@ -43,7 +46,7 @@
         "hasSecondaryAction" : false,
         "primaryAction" : {
             "label" : "Share/Request Data",
-            "action" : "share-data" 
+            "action" : "share-data"
         },
         "secondaryAction" : {
             "label" : "",
@@ -51,6 +54,7 @@
         }
     },
     {
+        "id": 4,
         "name" : "SMS",
         "icon" : "sms",
         "balance" : "479 Items",
@@ -60,7 +64,7 @@
         "hasSecondaryAction" : false,
         "primaryAction" : {
             "label" : "Share/Request Data",
-            "action" : "share-data" 
+            "action" : "share-data"
         },
         "secondaryAction" : {
             "label" : "",
@@ -68,6 +72,7 @@
         }
     },
     {
+        "id": 5,
         "name" : "Bonga",
         "icon" : "pot",
         "balance" : "6,781.65 Points",
@@ -77,7 +82,7 @@
         "hasSecondaryAction" : true,
         "primaryAction" : {
             "label" : "Transfer",
-            "action" : "transfer" 
+            "action" : "transfer"
         },
         "secondaryAction" : {
             "label" : "Redeem",

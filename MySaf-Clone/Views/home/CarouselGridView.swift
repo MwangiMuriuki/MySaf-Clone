@@ -32,27 +32,12 @@ struct CarouselGridView: View {
             // MARK: Vertical Stack with first two selectible options
             LazyVStack(spacing: 8, content: {
                 ForEach(viewModel.carouselCardItems, id: \.self){ item in
-                    RoundedRectangle(cornerRadius: 8)
-                        .frame(height: 90)
-                        .foregroundStyle(.cardBG)
-                        .shadow(radius: 2)
-                        .overlay(
-                            HStack{
-                                Image(item.icon)
-                                    .resizable()
-                                    .frame(width: 30, height: 30)
-                                    .scaledToFit()
-                                    .padding(8)
-
-                                Text(item.name)
-                                    .font(.custom("AvenirNext-Medium", size: 16))
-                                    .foregroundStyle(Color.primaryGreen)
-
-                                Spacer()
-                            }
-
-                        )
-
+                    let pageType: PageType = PageType(rawValue: item.type)!
+                    NavigationLink {
+                        chooseDestination(pageType: pageType, pageTitle: item.name)
+                    } label: {
+                        HomeCardItemsView(model: item)
+                    }
                 }
             })
             .padding(.trailing, 8)
