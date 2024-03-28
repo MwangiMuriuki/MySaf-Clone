@@ -44,6 +44,7 @@
 		19BD3F2C2BB098A2000A1DFD /* HotDealsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F2B2BB098A2000A1DFD /* HotDealsView.swift */; };
 		19BD3F2E2BB47237000A1DFD /* AccountBalancesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F2D2BB47237000A1DFD /* AccountBalancesModel.swift */; };
 		19BD3F302BB47321000A1DFD /* AccountBalancesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F2F2BB47321000A1DFD /* AccountBalancesViewModel.swift */; };
+		19BD3F322BB5DADA000A1DFD /* MpesaBalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F312BB5DADA000A1DFD /* MpesaBalanceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +86,7 @@
 		19BD3F2B2BB098A2000A1DFD /* HotDealsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotDealsView.swift; sourceTree = "<group>"; };
 		19BD3F2D2BB47237000A1DFD /* AccountBalancesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalancesModel.swift; sourceTree = "<group>"; };
 		19BD3F2F2BB47321000A1DFD /* AccountBalancesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalancesViewModel.swift; sourceTree = "<group>"; };
+		19BD3F312BB5DADA000A1DFD /* MpesaBalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MpesaBalanceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +226,7 @@
 			children = (
 				191680BD2BADA83400A9A985 /* MpesaView.swift */,
 				19BD3F172BAF39A4000A1DFD /* LipaNaMpesaView.swift */,
+				19BD3F312BB5DADA000A1DFD /* MpesaBalanceView.swift */,
 			);
 			path = mpesa;
 			sourceTree = "<group>";
@@ -378,6 +381,7 @@
 				191680AD2BADA69400A9A985 /* MySaf_CloneApp.swift in Sources */,
 				191680BE2BADA83400A9A985 /* MpesaView.swift in Sources */,
 				191680D52BAEDA1500A9A985 /* CardModel.swift in Sources */,
+				19BD3F322BB5DADA000A1DFD /* MpesaBalanceView.swift in Sources */,
 				191680E72BAF200700A9A985 /* HomeViewViewModel.swift in Sources */,
 				19BD3F1E2BAF3A49000A1DFD /* TunukiwaOffersView.swift in Sources */,
 				19BD3F202BAF3A6F000A1DFD /* AirtimeTopupView.swift in Sources */,

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct AccountBalancesView: View {
-    
+
     @StateObject var viewModel = AccountBalancesViewModel()
 
     var data = ["One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten"]
@@ -16,8 +16,9 @@ struct AccountBalancesView: View {
     var body: some View {
         VStack(content: {
             List(viewModel.accountBalances){ item in
+
                 DisclosureGroup(
-                    content: { 
+                    content: {
                         VStack(alignment: .leading, spacing: 12, content: {
                             HStack(content: {
                                 Text(item.altLabel)
@@ -110,11 +111,11 @@ struct AccountBalancesView: View {
                                                     .font(.custom("AvenirNext-Medium", size: 16))
                                                     .foregroundStyle(Color.primaryGreen)
                                                     .multilineTextAlignment(.leading)
-
                                             }
 
                                         )
                                 }
+
                             }
                         })
                     },
@@ -135,16 +136,22 @@ struct AccountBalancesView: View {
 
                             Text(item.balance)
                                 .font(.custom("AvenirNext-DemiBold", size: 15))
-                                .foregroundStyle(Color.primaryGreen)
+                                .foregroundStyle(.primaryText)
                                 .multilineTextAlignment(.leading)
 
                         })
                     }
-
                 )
+
+
             }
             .navigationTitle("")
             .listStyle(.insetGrouped)
+            .listRowSpacing(14)
+            .listRowSeparator(.hidden)
+            .listRowInsets(.init(top: 0, leading: 0, bottom: 0, trailing: 10))
+            .environment(\.defaultMinListRowHeight, 40)
+
 
 
         })
