@@ -32,7 +32,7 @@ struct CarouselGridView: View {
             // MARK: Vertical Stack with first two selectible options
             LazyVStack(spacing: 8, content: {
                 ForEach(viewModel.carouselCardItems, id: \.self){ item in
-                    let pageType: PageType = PageType(rawValue: item.type)!
+                    let pageType: HomePageType = HomePageType(rawValue: item.type)!
                     NavigationLink {
                         chooseDestination(pageType: pageType, pageTitle: item.name)
                     } label: {

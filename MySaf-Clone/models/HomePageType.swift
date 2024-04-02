@@ -1,5 +1,5 @@
 //
-//  PageType.swift
+//  HomePageType.swift
 //  MySaf-Clone
 //
 //  Created by Ernest Mwangi on 23/03/2024.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum PageType: String, CaseIterable {
+enum HomePageType: String, CaseIterable {
     case ask_zuri = "ask_zuri"
     case send_money = "send_money"
     case data_calls_airtime = "data_calls_airtime"

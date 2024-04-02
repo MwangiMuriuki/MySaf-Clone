@@ -1,0 +1,47 @@
+[
+    {
+        "name" : "Send Money",
+        "icon" : "send",
+        "type" : "send_money"
+    },
+    {
+        "name" : "Withdraw Cash",
+        "icon" : "airtime",
+        "type" : "withdraw_cash"
+    },
+    {
+        "name" : "Buy Airtime",
+        "icon" : "airtime",
+        "type" : "buy_airtime"
+    },
+    {
+        "name" : "Lipa na M-PESA",
+        "icon" : "basket",
+        "type" : "lipa_na_mpesa"
+    },
+    {
+        "name" : "Bill Manager",
+        "icon" : "basket",
+        "type" : "bill_manager"
+    },
+    {
+        "name" : "Loans & Savings",
+        "icon" : "basket",
+        "type" : "loans_savings"
+    },
+    {
+        "name" : "Fuliza M-PESA",
+        "icon" : "basket",
+        "type" : "fuliza_mpesa"
+    },
+    {
+        "name" : "M_PESA Global",
+        "icon" : "basket",
+        "type" : "mpesa_global"
+    },
+    {
+        "name" : "My Account",
+        "icon" : "basket",
+        "type" : "account"
+    }
+]

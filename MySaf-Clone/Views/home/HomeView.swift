@@ -27,11 +27,13 @@ struct HomeView: View {
                     // MARK: - Carousel Section
                     CarouselGridView()
                         .environmentObject(viewModel)
+                        .padding(.leading, 3)
+                        .padding(.trailing, 3)
 
                     // MARK: - Main Cards
                     LazyVGrid(columns: columns, content: {
                         ForEach(viewModel.mainCardItems, id: \.self){ item in
-                            let pageType: PageType = PageType(rawValue: item.type)!
+                            let pageType: HomePageType = HomePageType(rawValue: item.type)!
                             NavigationLink {
                                 chooseDestination(pageType: pageType, pageTitle: item.name)
                             } label: {
@@ -89,7 +91,6 @@ struct HomeView: View {
                     .padding(.trailing, 8)
                     .padding(.bottom, 20)
 
-
                 }
                 .padding(.top, 30)
 
@@ -106,7 +107,7 @@ struct HomeView: View {
 /// Function to choose the destination by checking against the Page type
 /// - Parameter pageType: PageType
 /// - Returns: View
-func chooseDestination(pageType: PageType, pageTitle: String) -> some View {
+func chooseDestination(pageType: HomePageType, pageTitle: String) -> some View {
     switch pageType {
     case .ask_zuri:
         ChatbotView().navigationTitle(pageTitle)

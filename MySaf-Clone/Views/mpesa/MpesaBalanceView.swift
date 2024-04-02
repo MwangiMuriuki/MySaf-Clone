@@ -10,6 +10,8 @@ import SwiftUI
 struct MpesaBalanceView: View {
     var body: some View {
         Text("M-PESA Balance View")
+
+        
     }
 }
 

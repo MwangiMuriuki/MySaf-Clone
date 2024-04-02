@@ -28,11 +28,10 @@
 		191680E52BAF1FCA00A9A985 /* accountBalances.json in Resources */ = {isa = PBXBuildFile; fileRef = 191680E32BAF1FCA00A9A985 /* accountBalances.json */; };
 		191680E72BAF200700A9A985 /* HomeViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191680E62BAF200700A9A985 /* HomeViewViewModel.swift */; };
 		19BD3F0E2BAF2927000A1DFD /* AccountBalancesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F0D2BAF2926000A1DFD /* AccountBalancesView.swift */; };
-		19BD3F102BAF2FEC000A1DFD /* PageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F0F2BAF2FEC000A1DFD /* PageType.swift */; };
+		19BD3F102BAF2FEC000A1DFD /* HomePageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F0F2BAF2FEC000A1DFD /* HomePageType.swift */; };
 		19BD3F122BAF37A8000A1DFD /* SendMoneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F112BAF37A8000A1DFD /* SendMoneyView.swift */; };
 		19BD3F142BAF37CD000A1DFD /* HomeInternetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F132BAF37CD000A1DFD /* HomeInternetView.swift */; };
 		19BD3F162BAF3970000A1DFD /* ChatbotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F152BAF3970000A1DFD /* ChatbotView.swift */; };
-		19BD3F182BAF39A4000A1DFD /* LipaNaMpesaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F172BAF39A4000A1DFD /* LipaNaMpesaView.swift */; };
 		19BD3F1A2BAF39F6000A1DFD /* DataCallsSMSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F192BAF39F6000A1DFD /* DataCallsSMSView.swift */; };
 		19BD3F1C2BAF3A26000A1DFD /* MyUsageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F1B2BAF3A26000A1DFD /* MyUsageView.swift */; };
 		19BD3F1E2BAF3A49000A1DFD /* TunukiwaOffersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F1D2BAF3A49000A1DFD /* TunukiwaOffersView.swift */; };
@@ -45,6 +44,20 @@
 		19BD3F2E2BB47237000A1DFD /* AccountBalancesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F2D2BB47237000A1DFD /* AccountBalancesModel.swift */; };
 		19BD3F302BB47321000A1DFD /* AccountBalancesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F2F2BB47321000A1DFD /* AccountBalancesViewModel.swift */; };
 		19BD3F322BB5DADA000A1DFD /* MpesaBalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F312BB5DADA000A1DFD /* MpesaBalanceView.swift */; };
+		19BD3F342BBC5E5C000A1DFD /* MpesaMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F332BBC5E5C000A1DFD /* MpesaMainViewModel.swift */; };
+		19BD3F372BBC5F13000A1DFD /* MpesaCardDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F362BBC5F13000A1DFD /* MpesaCardDataModel.swift */; };
+		19BD3F392BBC6041000A1DFD /* mpesaBalanceCards.json in Resources */ = {isa = PBXBuildFile; fileRef = 19BD3F382BBC6041000A1DFD /* mpesaBalanceCards.json */; };
+		19BD3F3B2BBC61C3000A1DFD /* MpesaBalancesSingleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F3A2BBC61C3000A1DFD /* MpesaBalancesSingleCardView.swift */; };
+		19BD3F3D2BBC62B0000A1DFD /* MpesaCardsPageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F3C2BBC62B0000A1DFD /* MpesaCardsPageType.swift */; };
+		19BD3F402BBC6439000A1DFD /* WithdrawCashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F3F2BBC6439000A1DFD /* WithdrawCashView.swift */; };
+		19BD3F422BBC6463000A1DFD /* BuyAirtimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F412BBC6463000A1DFD /* BuyAirtimeView.swift */; };
+		19BD3F462BBC68EF000A1DFD /* LipaNaMpesaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F452BBC68EF000A1DFD /* LipaNaMpesaView.swift */; };
+		19BD3F482BBC6995000A1DFD /* BillManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F472BBC6995000A1DFD /* BillManagerView.swift */; };
+		19BD3F4A2BBC6CAA000A1DFD /* LoansAndSavingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F492BBC6CAA000A1DFD /* LoansAndSavingsView.swift */; };
+		19BD3F4C2BBC6CB8000A1DFD /* FulizaMpesaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F4B2BBC6CB8000A1DFD /* FulizaMpesaView.swift */; };
+		19BD3F4E2BBC6CC5000A1DFD /* MpesaGlobalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F4D2BBC6CC5000A1DFD /* MpesaGlobalView.swift */; };
+		19BD3F502BBC6CE9000A1DFD /* MpesaAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F4F2BBC6CE9000A1DFD /* MpesaAccountView.swift */; };
+		19BD3F522BBC6FAD000A1DFD /* MpesaStatementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F512BBC6FAD000A1DFD /* MpesaStatementView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,11 +83,10 @@
 		191680E32BAF1FCA00A9A985 /* accountBalances.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = accountBalances.json; sourceTree = "<group>"; };
 		191680E62BAF200700A9A985 /* HomeViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewViewModel.swift; sourceTree = "<group>"; };
 		19BD3F0D2BAF2926000A1DFD /* AccountBalancesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalancesView.swift; sourceTree = "<group>"; };
-		19BD3F0F2BAF2FEC000A1DFD /* PageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageType.swift; sourceTree = "<group>"; };
+		19BD3F0F2BAF2FEC000A1DFD /* HomePageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageType.swift; sourceTree = "<group>"; };
 		19BD3F112BAF37A8000A1DFD /* SendMoneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMoneyView.swift; sourceTree = "<group>"; };
 		19BD3F132BAF37CD000A1DFD /* HomeInternetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInternetView.swift; sourceTree = "<group>"; };
 		19BD3F152BAF3970000A1DFD /* ChatbotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatbotView.swift; sourceTree = "<group>"; };
-		19BD3F172BAF39A4000A1DFD /* LipaNaMpesaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LipaNaMpesaView.swift; sourceTree = "<group>"; };
 		19BD3F192BAF39F6000A1DFD /* DataCallsSMSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCallsSMSView.swift; sourceTree = "<group>"; };
 		19BD3F1B2BAF3A26000A1DFD /* MyUsageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUsageView.swift; sourceTree = "<group>"; };
 		19BD3F1D2BAF3A49000A1DFD /* TunukiwaOffersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunukiwaOffersView.swift; sourceTree = "<group>"; };
@@ -87,6 +99,20 @@
 		19BD3F2D2BB47237000A1DFD /* AccountBalancesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalancesModel.swift; sourceTree = "<group>"; };
 		19BD3F2F2BB47321000A1DFD /* AccountBalancesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalancesViewModel.swift; sourceTree = "<group>"; };
 		19BD3F312BB5DADA000A1DFD /* MpesaBalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MpesaBalanceView.swift; sourceTree = "<group>"; };
+		19BD3F332BBC5E5C000A1DFD /* MpesaMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MpesaMainViewModel.swift; sourceTree = "<group>"; };
+		19BD3F362BBC5F13000A1DFD /* MpesaCardDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MpesaCardDataModel.swift; sourceTree = "<group>"; };
+		19BD3F382BBC6041000A1DFD /* mpesaBalanceCards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mpesaBalanceCards.json; sourceTree = "<group>"; };
+		19BD3F3A2BBC61C3000A1DFD /* MpesaBalancesSingleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MpesaBalancesSingleCardView.swift; sourceTree = "<group>"; };
+		19BD3F3C2BBC62B0000A1DFD /* MpesaCardsPageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MpesaCardsPageType.swift; sourceTree = "<group>"; };
+		19BD3F3F2BBC6439000A1DFD /* WithdrawCashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithdrawCashView.swift; sourceTree = "<group>"; };
+		19BD3F412BBC6463000A1DFD /* BuyAirtimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyAirtimeView.swift; sourceTree = "<group>"; };
+		19BD3F452BBC68EF000A1DFD /* LipaNaMpesaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LipaNaMpesaView.swift; sourceTree = "<group>"; };
+		19BD3F472BBC6995000A1DFD /* BillManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillManagerView.swift; sourceTree = "<group>"; };
+		19BD3F492BBC6CAA000A1DFD /* LoansAndSavingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoansAndSavingsView.swift; sourceTree = "<group>"; };
+		19BD3F4B2BBC6CB8000A1DFD /* FulizaMpesaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FulizaMpesaView.swift; sourceTree = "<group>"; };
+		19BD3F4D2BBC6CC5000A1DFD /* MpesaGlobalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MpesaGlobalView.swift; sourceTree = "<group>"; };
+		19BD3F4F2BBC6CE9000A1DFD /* MpesaAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MpesaAccountView.swift; sourceTree = "<group>"; };
+		19BD3F512BBC6FAD000A1DFD /* MpesaStatementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MpesaStatementView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,8 +182,10 @@
 		191680C92BADEF3700A9A985 /* models */ = {
 			isa = PBXGroup;
 			children = (
+				19BD3F352BBC5EFF000A1DFD /* mpesa */,
 				191680D62BAEDA1900A9A985 /* home */,
-				19BD3F0F2BAF2FEC000A1DFD /* PageType.swift */,
+				19BD3F0F2BAF2FEC000A1DFD /* HomePageType.swift */,
+				19BD3F3C2BBC62B0000A1DFD /* MpesaCardsPageType.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -167,6 +195,7 @@
 			children = (
 				191680E62BAF200700A9A985 /* HomeViewViewModel.swift */,
 				19BD3F2F2BB47321000A1DFD /* AccountBalancesViewModel.swift */,
+				19BD3F332BBC5E5C000A1DFD /* MpesaMainViewModel.swift */,
 			);
 			path = viewmodels;
 			sourceTree = "<group>";
@@ -202,6 +231,7 @@
 		191680E12BAF1F9E00A9A985 /* DataFiles */ = {
 			isa = PBXGroup;
 			children = (
+				19BD3F382BBC6041000A1DFD /* mpesaBalanceCards.json */,
 				191680E32BAF1FCA00A9A985 /* accountBalances.json */,
 				19BD3F292BB097BD000A1DFD /* homeCardsData.json */,
 			);
@@ -224,9 +254,10 @@
 		19BD3F072BAF27F3000A1DFD /* mpesa */ = {
 			isa = PBXGroup;
 			children = (
+				19BD3F3E2BBC6406000A1DFD /* supportingViews */,
 				191680BD2BADA83400A9A985 /* MpesaView.swift */,
-				19BD3F172BAF39A4000A1DFD /* LipaNaMpesaView.swift */,
 				19BD3F312BB5DADA000A1DFD /* MpesaBalanceView.swift */,
+				19BD3F3A2BBC61C3000A1DFD /* MpesaBalancesSingleCardView.swift */,
 			);
 			path = mpesa;
 			sourceTree = "<group>";
@@ -260,7 +291,6 @@
 			isa = PBXGroup;
 			children = (
 				19BD3F0D2BAF2926000A1DFD /* AccountBalancesView.swift */,
-				19BD3F112BAF37A8000A1DFD /* SendMoneyView.swift */,
 				19BD3F132BAF37CD000A1DFD /* HomeInternetView.swift */,
 				19BD3F152BAF3970000A1DFD /* ChatbotView.swift */,
 				19BD3F192BAF39F6000A1DFD /* DataCallsSMSView.swift */,
@@ -279,6 +309,31 @@
 				191680C42BADAB7000A9A985 /* UtilitiesView.swift */,
 			);
 			path = utilities;
+			sourceTree = "<group>";
+		};
+		19BD3F352BBC5EFF000A1DFD /* mpesa */ = {
+			isa = PBXGroup;
+			children = (
+				19BD3F362BBC5F13000A1DFD /* MpesaCardDataModel.swift */,
+			);
+			path = mpesa;
+			sourceTree = "<group>";
+		};
+		19BD3F3E2BBC6406000A1DFD /* supportingViews */ = {
+			isa = PBXGroup;
+			children = (
+				19BD3F112BAF37A8000A1DFD /* SendMoneyView.swift */,
+				19BD3F3F2BBC6439000A1DFD /* WithdrawCashView.swift */,
+				19BD3F412BBC6463000A1DFD /* BuyAirtimeView.swift */,
+				19BD3F452BBC68EF000A1DFD /* LipaNaMpesaView.swift */,
+				19BD3F472BBC6995000A1DFD /* BillManagerView.swift */,
+				19BD3F492BBC6CAA000A1DFD /* LoansAndSavingsView.swift */,
+				19BD3F4B2BBC6CB8000A1DFD /* FulizaMpesaView.swift */,
+				19BD3F4D2BBC6CC5000A1DFD /* MpesaGlobalView.swift */,
+				19BD3F4F2BBC6CE9000A1DFD /* MpesaAccountView.swift */,
+				19BD3F512BBC6FAD000A1DFD /* MpesaStatementView.swift */,
+			);
+			path = supportingViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -343,6 +398,7 @@
 				191680E52BAF1FCA00A9A985 /* accountBalances.json in Resources */,
 				19BD3F2A2BB097BD000A1DFD /* homeCardsData.json in Resources */,
 				191680B12BADA69500A9A985 /* Assets.xcassets in Resources */,
+				19BD3F392BBC6041000A1DFD /* mpesaBalanceCards.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,35 +414,47 @@
 				191680DE2BAF1E4F00A9A985 /* DataManager.swift in Sources */,
 				191680CC2BAE022100A9A985 /* UpdatesView.swift in Sources */,
 				19BD3F142BAF37CD000A1DFD /* HomeInternetView.swift in Sources */,
+				19BD3F482BBC6995000A1DFD /* BillManagerView.swift in Sources */,
+				19BD3F422BBC6463000A1DFD /* BuyAirtimeView.swift in Sources */,
 				19BD3F122BAF37A8000A1DFD /* SendMoneyView.swift in Sources */,
-				19BD3F182BAF39A4000A1DFD /* LipaNaMpesaView.swift in Sources */,
 				191680C22BADA85B00A9A985 /* AccountView.swift in Sources */,
 				19BD3F222BAF3A8E000A1DFD /* BongaView.swift in Sources */,
 				19BD3F1C2BAF3A26000A1DFD /* MyUsageView.swift in Sources */,
 				191680BC2BADA7D100A9A985 /* HomeView.swift in Sources */,
 				191680E02BAF1ED400A9A985 /* HomeCardData.swift in Sources */,
+				19BD3F3B2BBC61C3000A1DFD /* MpesaBalancesSingleCardView.swift in Sources */,
+				19BD3F4E2BBC6CC5000A1DFD /* MpesaGlobalView.swift in Sources */,
+				19BD3F502BBC6CE9000A1DFD /* MpesaAccountView.swift in Sources */,
+				19BD3F4C2BBC6CB8000A1DFD /* FulizaMpesaView.swift in Sources */,
 				19BD3F2E2BB47237000A1DFD /* AccountBalancesModel.swift in Sources */,
 				19BD3F302BB47321000A1DFD /* AccountBalancesViewModel.swift in Sources */,
 				191680D32BAED86E00A9A985 /* UpdatesImageModel.swift in Sources */,
 				191680AF2BADA69400A9A985 /* MainView.swift in Sources */,
+				19BD3F3D2BBC62B0000A1DFD /* MpesaCardsPageType.swift in Sources */,
 				19BD3F242BAF3AC2000A1DFD /* SHookBundlesView.swift in Sources */,
 				191680DA2BAEE98E00A9A985 /* HomeCardItemsView.swift in Sources */,
 				19BD3F0E2BAF2927000A1DFD /* AccountBalancesView.swift in Sources */,
 				19BD3F282BB095D9000A1DFD /* HotDealsModel.swift in Sources */,
 				191680CE2BAE071800A9A985 /* CarouselGridView.swift in Sources */,
+				19BD3F4A2BBC6CAA000A1DFD /* LoansAndSavingsView.swift in Sources */,
 				191680C02BADA84A00A9A985 /* DiscoverView.swift in Sources */,
 				19BD3F1A2BAF39F6000A1DFD /* DataCallsSMSView.swift in Sources */,
 				19BD3F2C2BB098A2000A1DFD /* HotDealsView.swift in Sources */,
+				19BD3F402BBC6439000A1DFD /* WithdrawCashView.swift in Sources */,
+				19BD3F342BBC5E5C000A1DFD /* MpesaMainViewModel.swift in Sources */,
 				191680C82BADEDEB00A9A985 /* HomeHeaderView.swift in Sources */,
 				191680AD2BADA69400A9A985 /* MySaf_CloneApp.swift in Sources */,
+				19BD3F462BBC68EF000A1DFD /* LipaNaMpesaView.swift in Sources */,
 				191680BE2BADA83400A9A985 /* MpesaView.swift in Sources */,
+				19BD3F522BBC6FAD000A1DFD /* MpesaStatementView.swift in Sources */,
 				191680D52BAEDA1500A9A985 /* CardModel.swift in Sources */,
 				19BD3F322BB5DADA000A1DFD /* MpesaBalanceView.swift in Sources */,
+				19BD3F372BBC5F13000A1DFD /* MpesaCardDataModel.swift in Sources */,
 				191680E72BAF200700A9A985 /* HomeViewViewModel.swift in Sources */,
 				19BD3F1E2BAF3A49000A1DFD /* TunukiwaOffersView.swift in Sources */,
 				19BD3F202BAF3A6F000A1DFD /* AirtimeTopupView.swift in Sources */,
 				191680C52BADAB7000A9A985 /* UtilitiesView.swift in Sources */,
-				19BD3F102BAF2FEC000A1DFD /* PageType.swift in Sources */,
+				19BD3F102BAF2FEC000A1DFD /* HomePageType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

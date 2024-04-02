@@ -25,7 +25,7 @@ struct HotDealsView: View {
                                 .foregroundStyle(Color.white)
 
                             Text(model.dealDetails)
-                                .font(.custom("AvenirNext-DemiBold", size: 16))
+                                .font(.custom("AvenirNext-DemiBold", size: 15))
                                 .foregroundStyle(Color.white)
                                 .multilineTextAlignment(.leading)
                                 .padding(.top, 5)
@@ -42,8 +42,6 @@ struct HotDealsView: View {
                             })
                             .padding(.trailing, 10)
                             .padding(.bottom, 10)
-
-
 
                         })
                         .frame(maxWidth: .infinity, alignment: .leading)
