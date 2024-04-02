@@ -16,11 +16,15 @@ enum AppTheme: String, CaseIterable, Identifiable {
 
 struct HomeHeaderView: View {
     @State private var selectedTheme: AppTheme = .systemDefault
+    @State private var showSearchPage = false
+    @State private var showNotificationsPage = false
+    @State private var showBalancesPage = false
 
     var body: some View {
 
         VStack(content: {
-            // MARK:- Top View Actions
+
+            // MARK: - Top View Actions
             HStack(content: {
 
                 Image(systemName: "moonphase.first.quarter")
@@ -38,7 +42,7 @@ struct HomeHeaderView: View {
                 Spacer()
 
                 Button(action: {
-                  
+
                 }, label: {
                     Image(systemName: "magnifyingglass")
                         .foregroundStyle(.white)
@@ -57,13 +61,39 @@ struct HomeHeaderView: View {
 
             //MARK: - Greetings Text
             Text("Good Afternoon")
-                .font(.headline)
+                .font(.system(size: 15))
                 .foregroundStyle(.white)
-                .padding(.top, 8)
+                .padding(.top, 5)
+
+            Text("ERNEST")
+                .font(.custom("Chalkduster", size: 26))
+                .foregroundStyle(.white)
+    
+                .padding(.bottom, 10)
 
             Spacer(minLength: 0)
 
-            Button(action: {}, label: {
+
+            NavigationLink {
+                AccountBalancesView()
+                    .toolbar(content: {
+                        ToolbarItem(placement: .principal) {
+                            Text("My Account Balances")
+                                .font(.custom("AvenirNext-DemiBold", size: 18))
+                                .foregroundStyle(Color.white)
+                        }
+                    })
+                    .toolbarBackground(Color.headerBG, for: .navigationBar)
+                    .toolbarBackground(.visible, for: .navigationBar)
+                    .toolbarColorScheme(.dark, for: .navigationBar)
+
+//                AccountBalancesView()
+//                    .navigationTitle("My Account Balances")
+//                    .toolbarBackground(.headerBG, for: .navigationBar)
+//                    .toolbarBackground(.visible, for: .navigationBar)
+//                    .toolbarColorScheme(.dark, for: .navigationBar)
+
+            } label: {
                 RoundedRectangle(cornerRadius: 8)
                     .frame(width: UIScreen.main.bounds.width - 180, height: 44)
                     .foregroundStyle(.cardBG)
@@ -73,15 +103,17 @@ struct HomeHeaderView: View {
                             .font(.custom("AvenirNext-Medium", size: 16))
                             .foregroundStyle(Color.primaryGreen)
                     )
-            })
+            }
             .padding(.bottom, -22)
+
 
         })
         .background(.headerBG)
         .frame(height: 120)
 
-
         Spacer()
+
+
     }
 
 }

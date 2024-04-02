@@ -10,6 +10,7 @@ import SwiftUI
 struct HomeView: View {
 
     @StateObject var viewModel = HomeViewViewModel()
+    @State private var showAccountBalancesPage = false
 
     let columns: [GridItem] = Array(repeating: .init(.adaptive(minimum: (UIScreen.main.bounds.width / 2) - 5, maximum: 197)), count: 2)
     
@@ -26,13 +27,15 @@ struct HomeView: View {
                     // MARK: - Carousel Section
                     CarouselGridView()
                         .environmentObject(viewModel)
+                        .padding(.leading, 3)
+                        .padding(.trailing, 3)
 
                     // MARK: - Main Cards
                     LazyVGrid(columns: columns, content: {
                         ForEach(viewModel.mainCardItems, id: \.self){ item in
-                            let pageType: PageType = PageType(rawValue: item.type)!
+                            let pageType: HomePageType = HomePageType(rawValue: item.type)!
                             NavigationLink {
-                                chooseDestination(pageType: pageType)
+                                chooseDestination(pageType: pageType, pageTitle: item.name)
                             } label: {
                                 HomeCardItemsView(model: item)
                             }
@@ -88,7 +91,6 @@ struct HomeView: View {
                     .padding(.trailing, 8)
                     .padding(.bottom, 20)
 
-
                 }
                 .padding(.top, 30)
 
@@ -105,28 +107,28 @@ struct HomeView: View {
 /// Function to choose the destination by checking against the Page type
 /// - Parameter pageType: PageType
 /// - Returns: View
-private func chooseDestination(pageType: PageType) -> some View {
+func chooseDestination(pageType: HomePageType, pageTitle: String) -> some View {
     switch pageType {
     case .ask_zuri:
-        ChatbotView()
+        ChatbotView().navigationTitle(pageTitle)
     case .send_money:
-        SendMoneyView()
+        SendMoneyView().navigationTitle(pageTitle)
     case .data_calls_airtime:
-        DataCallsSMSView()
+        DataCallsSMSView().navigationTitle(pageTitle)
     case .lipa_na_mpesa:
-        LipaNaMpesaView()
+        LipaNaMpesaView().navigationTitle(pageTitle)
     case .my_usage:
-        MyUsageView()
+        MyUsageView().navigationTitle(pageTitle)
     case .home_internet:
-        HomeInternetView()
+        HomeInternetView().navigationTitle(pageTitle)
     case .tunukiwa_offers:
-        TunukiwaOffersView()
+        TunukiwaOffersView().navigationTitle(pageTitle)
     case .airtime_top_up:
-        AirtimeTopupView()
+        AirtimeTopupView().navigationTitle(pageTitle)
     case .bonga:
-        BongaView()
+        BongaView().navigationTitle(pageTitle)
     case .s_hook_bundles:
-        SHookBundlesView()
+        SHookBundlesView().navigationTitle(pageTitle)
     }
 
 }

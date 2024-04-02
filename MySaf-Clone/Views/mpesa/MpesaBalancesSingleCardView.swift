@@ -1,32 +1,28 @@
 //
-//  HomeCardItemsView.swift
+//  MpesaBalancesSingleCardView.swift
 //  MySaf-Clone
 //
-//  Created by Ernest Mwangi on 23/03/2024.
+//  Created by Ernest Mwangi on 02/04/2024.
 //
 
 import SwiftUI
 
-struct HomeCardItemsView: View {
-
+struct MpesaBalancesSingleCardView: View {
     @State var model: CardModel
 
-    let columns: [GridItem] = Array(repeating: .init(.adaptive(minimum: (UIScreen.main.bounds.width / 2) - 5, maximum: 197)), count: 2)
-
     var body: some View {
-
         VStack{
             RoundedRectangle(cornerRadius: 8)
-                .frame(height: 90)
+                .frame(height: 120)
                 .foregroundStyle(.cardBG)
                 .shadow(radius: 2)
                 .overlay(
-                    HStack{
+                    VStack(alignment: .center, content: {
                         Image(model.icon)
                             .resizable()
-                            .frame(width: 30, height: 30)
+                            .frame(width: 32, height: 32)
                             .scaledToFit()
-                            .padding(8)
+                            .padding(.top, 15)
 
                         Text(model.name)
                             .font(.custom("AvenirNext-Medium", size: 15))
@@ -34,16 +30,13 @@ struct HomeCardItemsView: View {
                             .multilineTextAlignment(.leading)
 
                         Spacer()
-                    }
+                    })
 
                 )
         }
-
-
     }
 }
 
 #Preview {
-    HomeCardItemsView(model: CardModel(name: "", icon: "", type: ""))
-
+    MpesaBalancesSingleCardView(model: CardModel(name: "", icon: "", type: ""))
 }

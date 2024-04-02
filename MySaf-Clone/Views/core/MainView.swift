@@ -25,6 +25,7 @@ struct MainView: View {
                     Text("M-PESA")
                 }
                 .tag(1)
+                .navigationTitle("M-PESA")
 
 
             UtilitiesView()
