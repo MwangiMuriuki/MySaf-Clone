@@ -7,6 +7,8 @@
 
 import Foundation
 
+/// Enumerator describing the different page types fo the Home Page menu options.
+/// Each Page Type is used to navigate to the required inner page
 enum HomePageType: String, CaseIterable {
     case ask_zuri = "ask_zuri"
     case send_money = "send_money"

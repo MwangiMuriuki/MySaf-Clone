@@ -29,6 +29,19 @@
 		191680E72BAF200700A9A985 /* HomeViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191680E62BAF200700A9A985 /* HomeViewViewModel.swift */; };
 		19984C5D2BBEA2B10002527B /* BottomGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19984C5C2BBEA2B10002527B /* BottomGridView.swift */; };
 		19984C5F2BBEA3D60002527B /* MpesaMapKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19984C5E2BBEA3D60002527B /* MpesaMapKitView.swift */; };
+		19A098792BBF162200D8B01A /* GetPUKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A098782BBF162200D8B01A /* GetPUKView.swift */; };
+		19A0987B2BBF163400D8B01A /* SambazaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A0987A2BBF163400D8B01A /* SambazaView.swift */; };
+		19A0987D2BBF164800D8B01A /* ReportFraudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A0987C2BBF164800D8B01A /* ReportFraudView.swift */; };
+		19A098802BBF175F00D8B01A /* AccountListItemSingleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A0987F2BBF175F00D8B01A /* AccountListItemSingleView.swift */; };
+		19A098822BBF1BA200D8B01A /* userAccountMenuOptions.json in Resources */ = {isa = PBXBuildFile; fileRef = 19A098812BBF1BA200D8B01A /* userAccountMenuOptions.json */; };
+		19A098842BBF1C3900D8B01A /* UserAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A098832BBF1C3900D8B01A /* UserAccountViewModel.swift */; };
+		19A098862BBF1C8900D8B01A /* AccountMenuPageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A098852BBF1C8900D8B01A /* AccountMenuPageType.swift */; };
+		19A098892BBF28E000D8B01A /* MySubscriptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A098882BBF28E000D8B01A /* MySubscriptionsView.swift */; };
+		19A0988B2BBF28F300D8B01A /* RequestESimView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A0988A2BBF28F300D8B01A /* RequestESimView.swift */; };
+		19A0988D2BBF290300D8B01A /* SimManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A0988C2BBF290300D8B01A /* SimManagementView.swift */; };
+		19A0988F2BBF291400D8B01A /* AppSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A0988E2BBF291400D8B01A /* AppSettingsView.swift */; };
+		19A098912BBF292400D8B01A /* RateAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A098902BBF292400D8B01A /* RateAppView.swift */; };
+		19A098932BBF294B00D8B01A /* AboutAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A098922BBF294B00D8B01A /* AboutAppView.swift */; };
 		19BD3F0E2BAF2927000A1DFD /* AccountBalancesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F0D2BAF2926000A1DFD /* AccountBalancesView.swift */; };
 		19BD3F102BAF2FEC000A1DFD /* HomePageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F0F2BAF2FEC000A1DFD /* HomePageType.swift */; };
 		19BD3F122BAF37A8000A1DFD /* SendMoneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F112BAF37A8000A1DFD /* SendMoneyView.swift */; };
@@ -86,6 +99,19 @@
 		191680E62BAF200700A9A985 /* HomeViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewViewModel.swift; sourceTree = "<group>"; };
 		19984C5C2BBEA2B10002527B /* BottomGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomGridView.swift; sourceTree = "<group>"; };
 		19984C5E2BBEA3D60002527B /* MpesaMapKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MpesaMapKitView.swift; sourceTree = "<group>"; };
+		19A098782BBF162200D8B01A /* GetPUKView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPUKView.swift; sourceTree = "<group>"; };
+		19A0987A2BBF163400D8B01A /* SambazaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SambazaView.swift; sourceTree = "<group>"; };
+		19A0987C2BBF164800D8B01A /* ReportFraudView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportFraudView.swift; sourceTree = "<group>"; };
+		19A0987F2BBF175F00D8B01A /* AccountListItemSingleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListItemSingleView.swift; sourceTree = "<group>"; };
+		19A098812BBF1BA200D8B01A /* userAccountMenuOptions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = userAccountMenuOptions.json; sourceTree = "<group>"; };
+		19A098832BBF1C3900D8B01A /* UserAccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountViewModel.swift; sourceTree = "<group>"; };
+		19A098852BBF1C8900D8B01A /* AccountMenuPageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountMenuPageType.swift; sourceTree = "<group>"; };
+		19A098882BBF28E000D8B01A /* MySubscriptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySubscriptionsView.swift; sourceTree = "<group>"; };
+		19A0988A2BBF28F300D8B01A /* RequestESimView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestESimView.swift; sourceTree = "<group>"; };
+		19A0988C2BBF290300D8B01A /* SimManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimManagementView.swift; sourceTree = "<group>"; };
+		19A0988E2BBF291400D8B01A /* AppSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsView.swift; sourceTree = "<group>"; };
+		19A098902BBF292400D8B01A /* RateAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateAppView.swift; sourceTree = "<group>"; };
+		19A098922BBF294B00D8B01A /* AboutAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAppView.swift; sourceTree = "<group>"; };
 		19BD3F0D2BAF2926000A1DFD /* AccountBalancesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalancesView.swift; sourceTree = "<group>"; };
 		19BD3F0F2BAF2FEC000A1DFD /* HomePageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageType.swift; sourceTree = "<group>"; };
 		19BD3F112BAF37A8000A1DFD /* SendMoneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMoneyView.swift; sourceTree = "<group>"; };
@@ -154,6 +180,7 @@
 				191680DB2BAEF38400A9A985 /* Resources */,
 				191680D12BAED62400A9A985 /* viewmodels */,
 				191680C92BADEF3700A9A985 /* models */,
+				19A098872BBF1CC100D8B01A /* enums */,
 				191680C62BADEDB400A9A985 /* Views */,
 				191680B02BADA69500A9A985 /* Assets.xcassets */,
 				191680B22BADA69500A9A985 /* Preview Content */,
@@ -188,8 +215,6 @@
 			children = (
 				19BD3F352BBC5EFF000A1DFD /* mpesa */,
 				191680D62BAEDA1900A9A985 /* home */,
-				19BD3F0F2BAF2FEC000A1DFD /* HomePageType.swift */,
-				19BD3F3C2BBC62B0000A1DFD /* MpesaCardsPageType.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -200,6 +225,7 @@
 				191680E62BAF200700A9A985 /* HomeViewViewModel.swift */,
 				19BD3F2F2BB47321000A1DFD /* AccountBalancesViewModel.swift */,
 				19BD3F332BBC5E5C000A1DFD /* MpesaMainViewModel.swift */,
+				19A098832BBF1C3900D8B01A /* UserAccountViewModel.swift */,
 			);
 			path = viewmodels;
 			sourceTree = "<group>";
@@ -235,11 +261,47 @@
 		191680E12BAF1F9E00A9A985 /* DataFiles */ = {
 			isa = PBXGroup;
 			children = (
+				19A098812BBF1BA200D8B01A /* userAccountMenuOptions.json */,
 				19BD3F382BBC6041000A1DFD /* mpesaBalanceCards.json */,
 				191680E32BAF1FCA00A9A985 /* accountBalances.json */,
 				19BD3F292BB097BD000A1DFD /* homeCardsData.json */,
 			);
 			path = DataFiles;
+			sourceTree = "<group>";
+		};
+		19A098772BBF160B00D8B01A /* supportingViews */ = {
+			isa = PBXGroup;
+			children = (
+				19A098782BBF162200D8B01A /* GetPUKView.swift */,
+				19A0987A2BBF163400D8B01A /* SambazaView.swift */,
+				19A0987C2BBF164800D8B01A /* ReportFraudView.swift */,
+				19A098882BBF28E000D8B01A /* MySubscriptionsView.swift */,
+				19A0988A2BBF28F300D8B01A /* RequestESimView.swift */,
+				19A0988C2BBF290300D8B01A /* SimManagementView.swift */,
+				19A0988E2BBF291400D8B01A /* AppSettingsView.swift */,
+				19A098902BBF292400D8B01A /* RateAppView.swift */,
+				19A098922BBF294B00D8B01A /* AboutAppView.swift */,
+			);
+			path = supportingViews;
+			sourceTree = "<group>";
+		};
+		19A0987E2BBF172400D8B01A /* mainViews */ = {
+			isa = PBXGroup;
+			children = (
+				191680C12BADA85B00A9A985 /* AccountView.swift */,
+				19A0987F2BBF175F00D8B01A /* AccountListItemSingleView.swift */,
+			);
+			path = mainViews;
+			sourceTree = "<group>";
+		};
+		19A098872BBF1CC100D8B01A /* enums */ = {
+			isa = PBXGroup;
+			children = (
+				19BD3F0F2BAF2FEC000A1DFD /* HomePageType.swift */,
+				19BD3F3C2BBC62B0000A1DFD /* MpesaCardsPageType.swift */,
+				19A098852BBF1C8900D8B01A /* AccountMenuPageType.swift */,
+			);
+			path = enums;
 			sourceTree = "<group>";
 		};
 		19BD3F062BAF27EC000A1DFD /* home */ = {
@@ -275,7 +337,8 @@
 		19BD3F092BAF280A000A1DFD /* account */ = {
 			isa = PBXGroup;
 			children = (
-				191680C12BADA85B00A9A985 /* AccountView.swift */,
+				19A0987E2BBF172400D8B01A /* mainViews */,
+				19A098772BBF160B00D8B01A /* supportingViews */,
 			);
 			path = account;
 			sourceTree = "<group>";
@@ -408,6 +471,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19A098822BBF1BA200D8B01A /* userAccountMenuOptions.json in Resources */,
 				191680B42BADA69500A9A985 /* Preview Assets.xcassets in Resources */,
 				191680E52BAF1FCA00A9A985 /* accountBalances.json in Resources */,
 				19BD3F2A2BB097BD000A1DFD /* homeCardsData.json in Resources */,
@@ -431,8 +495,12 @@
 				19BD3F142BAF37CD000A1DFD /* HomeInternetView.swift in Sources */,
 				19BD3F482BBC6995000A1DFD /* BillManagerView.swift in Sources */,
 				19BD3F422BBC6463000A1DFD /* BuyAirtimeView.swift in Sources */,
+				19A098862BBF1C8900D8B01A /* AccountMenuPageType.swift in Sources */,
+				19A0988D2BBF290300D8B01A /* SimManagementView.swift in Sources */,
+				19A0987D2BBF164800D8B01A /* ReportFraudView.swift in Sources */,
 				19BD3F122BAF37A8000A1DFD /* SendMoneyView.swift in Sources */,
 				191680C22BADA85B00A9A985 /* AccountView.swift in Sources */,
+				19A098792BBF162200D8B01A /* GetPUKView.swift in Sources */,
 				19BD3F222BAF3A8E000A1DFD /* BongaView.swift in Sources */,
 				19BD3F1C2BAF3A26000A1DFD /* MyUsageView.swift in Sources */,
 				191680BC2BADA7D100A9A985 /* HomeView.swift in Sources */,
@@ -446,10 +514,12 @@
 				191680D32BAED86E00A9A985 /* UpdatesImageModel.swift in Sources */,
 				191680AF2BADA69400A9A985 /* MainView.swift in Sources */,
 				19BD3F3D2BBC62B0000A1DFD /* MpesaCardsPageType.swift in Sources */,
+				19A0988B2BBF28F300D8B01A /* RequestESimView.swift in Sources */,
 				19BD3F242BAF3AC2000A1DFD /* SHookBundlesView.swift in Sources */,
 				191680DA2BAEE98E00A9A985 /* HomeCardItemsView.swift in Sources */,
 				19BD3F0E2BAF2927000A1DFD /* AccountBalancesView.swift in Sources */,
 				19BD3F282BB095D9000A1DFD /* HotDealsModel.swift in Sources */,
+				19A098842BBF1C3900D8B01A /* UserAccountViewModel.swift in Sources */,
 				191680CE2BAE071800A9A985 /* CarouselGridView.swift in Sources */,
 				19BD3F4A2BBC6CAA000A1DFD /* LoansAndSavingsView.swift in Sources */,
 				191680C02BADA84A00A9A985 /* DiscoverView.swift in Sources */,
@@ -460,17 +530,23 @@
 				191680C82BADEDEB00A9A985 /* HomeHeaderView.swift in Sources */,
 				191680AD2BADA69400A9A985 /* MySaf_CloneApp.swift in Sources */,
 				19BD3F462BBC68EF000A1DFD /* LipaNaMpesaView.swift in Sources */,
+				19A0987B2BBF163400D8B01A /* SambazaView.swift in Sources */,
+				19A098912BBF292400D8B01A /* RateAppView.swift in Sources */,
 				191680BE2BADA83400A9A985 /* MpesaView.swift in Sources */,
 				19BD3F522BBC6FAD000A1DFD /* MpesaStatementView.swift in Sources */,
+				19A098892BBF28E000D8B01A /* MySubscriptionsView.swift in Sources */,
 				19984C5F2BBEA3D60002527B /* MpesaMapKitView.swift in Sources */,
 				191680D52BAEDA1500A9A985 /* CardModel.swift in Sources */,
 				19BD3F322BB5DADA000A1DFD /* MpesaBalanceView.swift in Sources */,
 				19BD3F372BBC5F13000A1DFD /* MpesaCardDataModel.swift in Sources */,
+				19A0988F2BBF291400D8B01A /* AppSettingsView.swift in Sources */,
 				191680E72BAF200700A9A985 /* HomeViewViewModel.swift in Sources */,
 				19BD3F1E2BAF3A49000A1DFD /* TunukiwaOffersView.swift in Sources */,
 				19BD3F202BAF3A6F000A1DFD /* AirtimeTopupView.swift in Sources */,
+				19A098932BBF294B00D8B01A /* AboutAppView.swift in Sources */,
 				191680C52BADAB7000A9A985 /* UtilitiesView.swift in Sources */,
 				19BD3F102BAF2FEC000A1DFD /* HomePageType.swift in Sources */,
+				19A098802BBF175F00D8B01A /* AccountListItemSingleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,8 +686,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -639,8 +715,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

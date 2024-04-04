@@ -1,0 +1,37 @@
+[
+    {
+        "name" : "Data & Airtime Usage",
+        "icon" : "chart",
+        "type" : "my_usage"
+    },
+    {
+        "name" : "My Subscriptions",
+        "icon" : "subscriptions",
+        "type" : "my_subscriptions"
+    },
+    {
+        "name" : "Request e-SIM",
+        "icon" : "e-sim",
+        "type" : "request_esim"
+    }, 
+    {
+        "name" : "SIM Management",
+        "icon" : "simcard",
+        "type" : "sim_management"
+    },
+    {
+        "name" : "App Settings",
+        "icon" : "settings",
+        "type" : "app_settings"
+    },
+    {
+        "name" : "Rate your experience",
+        "icon" : "rateus",
+        "type" : "rate_your_experience"
+    },
+    {
+        "name" : "About the App",
+        "icon" : "info",
+        "type" : "about_mysaf"
+    }
+]

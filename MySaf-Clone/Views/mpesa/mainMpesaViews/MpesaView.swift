@@ -134,7 +134,6 @@ struct MpesaView: View {
             .onAppear(perform: {
                 viewModel.fetchMpesaCardsListings()
             })
-
         }
 
     }
@@ -142,7 +141,7 @@ struct MpesaView: View {
 
 @ViewBuilder
 /// Function to choose the destination by checking against the Page type
-/// - Parameter pageType: PageType
+/// - Parameter pageType: MpesaCardsPageType
 /// - Returns: View
 func mpesaPageNavigation(pageType: MpesaCardsPageType, pageTitle: String) -> some View {
     switch pageType {
