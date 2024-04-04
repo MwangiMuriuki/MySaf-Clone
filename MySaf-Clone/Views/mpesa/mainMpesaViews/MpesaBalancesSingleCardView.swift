@@ -18,14 +18,15 @@ struct MpesaBalancesSingleCardView: View {
                 .shadow(radius: 2)
                 .overlay(
                     VStack(alignment: .center, content: {
+
                         Image(model.icon)
                             .resizable()
-                            .frame(width: 32, height: 32)
+                            .frame(width: 30, height: 30)
                             .scaledToFit()
-                            .padding(.top, 15)
+                            .padding(.top, 30)
 
                         Text(model.name)
-                            .font(.custom("AvenirNext-Medium", size: 15))
+                            .font(.custom("AvenirNext-Medium", size: 14))
                             .foregroundStyle(Color.primaryText)
                             .multilineTextAlignment(.leading)
 
@@ -33,10 +34,12 @@ struct MpesaBalancesSingleCardView: View {
                     })
 
                 )
+                .padding(.leading, 2)
+                .padding(.trailing, 2)
         }
     }
 }
 
 #Preview {
-    MpesaBalancesSingleCardView(model: CardModel(name: "", icon: "", type: ""))
+    MpesaBalancesSingleCardView(model: CardModel(name: "", icon: "globe", type: "M-PESA Global"))
 }

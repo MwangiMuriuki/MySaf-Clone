@@ -9,13 +9,15 @@ import SwiftUI
 
 struct MpesaView: View {
     @StateObject var viewModel = MpesaMainViewModel()
+    @State private var showWebViewPage = false
+   
 
-    let columns: [GridItem] = Array(repeating: .init(.adaptive(minimum: (UIScreen.main.bounds.width / 2) - 10, maximum: 197)), count: 3)
+    let columns: [GridItem] = Array(repeating: .init(.adaptive(minimum: (UIScreen.main.bounds.width / 2) - 10, maximum: 200)), count: 3)
 
     var body: some View {
         NavigationStack {
             ScrollView(.vertical) {
-                VStack(spacing: 20, content: {
+                VStack(spacing: 15, content: {
                     // MARK: - M-Pesa Balance Button
                     NavigationLink {
                         MpesaBalanceView()
@@ -41,7 +43,7 @@ struct MpesaView: View {
 
 
                     // MARK: - Options Grid
-                    LazyVGrid(columns: columns, content: {
+                    LazyVGrid(columns: columns, spacing: 15, content: {
                         ForEach(viewModel.mpesaCardItems, id: \.self){ item in
                             let pageType: MpesaCardsPageType = MpesaCardsPageType(rawValue: item.type)!
                             NavigationLink {
@@ -60,7 +62,7 @@ struct MpesaView: View {
                         MpesaStatementView()
                             .toolbar(content: {
                                 ToolbarItem(placement: .principal) {
-                                    Text("M-PESA Statements")
+                                    Text("M-PESA Statement")
                                         .font(.custom("AvenirNext-DemiBold", size: 18))
                                         .foregroundStyle(Color.white)
                                 }
@@ -69,14 +71,23 @@ struct MpesaView: View {
                             .toolbarBackground(.visible, for: .navigationBar)
                             .toolbarColorScheme(.dark, for: .navigationBar)
                     } label: {
-                        Text("M-PESA Statements")
-                            .font(.custom("AvenirNext-DemiBold", size: 16))
-                            .foregroundStyle(Color.primaryGreen)
+                        RoundedRectangle(cornerRadius: 36)
+                            .fill(.cardBG)
                             .frame(width: UIScreen.main.bounds.width - 20, height: 46)
-                            .background(Color.cardBG)
-                            .clipShape(Capsule())
                             .shadow(radius: 4)
+                            .overlay(
+                                HStack(spacing: 15, content: {
+                                    Image("feather")
+                                        .resizable()
+                                        .frame(width: 20, height: 20)
+
+                                    Text("M-PESA Statement")
+                                        .font(.custom("AvenirNext-DemiBold", size: 15))
+                                        .foregroundStyle(Color.primaryGreen)
+                                })
+                            )
                     }
+
 
                     // MARK: - Scan To Pay Button
                     NavigationLink {
@@ -92,14 +103,28 @@ struct MpesaView: View {
                             .toolbarBackground(.visible, for: .navigationBar)
                             .toolbarColorScheme(.dark, for: .navigationBar)
                     } label: {
-                        Text("Scan to Pay")
-                            .font(.custom("AvenirNext-DemiBold", size: 16))
-                            .foregroundStyle(Color.black)
+                        RoundedRectangle(cornerRadius: 36)
+                            .fill(.primaryRed)
                             .frame(width: UIScreen.main.bounds.width - 20, height: 46)
-                            .background(Color.primaryRed)
-                            .clipShape(Capsule())
                             .shadow(radius: 4)
+                            .overlay(
+                                HStack(spacing: 15, content: {
+                                    Image("scan")
+                                        .resizable()
+                                        .frame(width: 20, height: 20)
+
+                                    Text("Scan to Pay")
+                                        .font(.custom("AvenirNext-DemiBold", size: 15))
+                                        .foregroundStyle(Color.black)
+                                })
+                            )
                     }
+
+
+                    // MARK: - Bottom Grid
+                 BottomGridView()
+                        .padding(.leading, 8)
+                        .padding(.trailing, 8)
 
                     Spacer()
                 })
