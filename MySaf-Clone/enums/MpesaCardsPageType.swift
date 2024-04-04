@@ -7,7 +7,8 @@
 
 import Foundation
 
-
+/// Enumerator describing the different page types fo the Mpesa Page menu options.
+/// Each Page Type is used to navigate to the required inner page
 enum MpesaCardsPageType: String, CaseIterable {
     case send_money = "send_money"
     case withdraw_cash = "withdraw_cash"
