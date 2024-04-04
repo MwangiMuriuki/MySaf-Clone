@@ -27,6 +27,8 @@
 		191680E02BAF1ED400A9A985 /* HomeCardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191680DF2BAF1ED400A9A985 /* HomeCardData.swift */; };
 		191680E52BAF1FCA00A9A985 /* accountBalances.json in Resources */ = {isa = PBXBuildFile; fileRef = 191680E32BAF1FCA00A9A985 /* accountBalances.json */; };
 		191680E72BAF200700A9A985 /* HomeViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191680E62BAF200700A9A985 /* HomeViewViewModel.swift */; };
+		19984C5D2BBEA2B10002527B /* BottomGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19984C5C2BBEA2B10002527B /* BottomGridView.swift */; };
+		19984C5F2BBEA3D60002527B /* MpesaMapKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19984C5E2BBEA3D60002527B /* MpesaMapKitView.swift */; };
 		19BD3F0E2BAF2927000A1DFD /* AccountBalancesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F0D2BAF2926000A1DFD /* AccountBalancesView.swift */; };
 		19BD3F102BAF2FEC000A1DFD /* HomePageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F0F2BAF2FEC000A1DFD /* HomePageType.swift */; };
 		19BD3F122BAF37A8000A1DFD /* SendMoneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD3F112BAF37A8000A1DFD /* SendMoneyView.swift */; };
@@ -82,6 +84,8 @@
 		191680DF2BAF1ED400A9A985 /* HomeCardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCardData.swift; sourceTree = "<group>"; };
 		191680E32BAF1FCA00A9A985 /* accountBalances.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = accountBalances.json; sourceTree = "<group>"; };
 		191680E62BAF200700A9A985 /* HomeViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewViewModel.swift; sourceTree = "<group>"; };
+		19984C5C2BBEA2B10002527B /* BottomGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomGridView.swift; sourceTree = "<group>"; };
+		19984C5E2BBEA3D60002527B /* MpesaMapKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MpesaMapKitView.swift; sourceTree = "<group>"; };
 		19BD3F0D2BAF2926000A1DFD /* AccountBalancesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalancesView.swift; sourceTree = "<group>"; };
 		19BD3F0F2BAF2FEC000A1DFD /* HomePageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageType.swift; sourceTree = "<group>"; };
 		19BD3F112BAF37A8000A1DFD /* SendMoneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMoneyView.swift; sourceTree = "<group>"; };
@@ -254,10 +258,8 @@
 		19BD3F072BAF27F3000A1DFD /* mpesa */ = {
 			isa = PBXGroup;
 			children = (
+				19BD3F532BBEA13E000A1DFD /* mainMpesaViews */,
 				19BD3F3E2BBC6406000A1DFD /* supportingViews */,
-				191680BD2BADA83400A9A985 /* MpesaView.swift */,
-				19BD3F312BB5DADA000A1DFD /* MpesaBalanceView.swift */,
-				19BD3F3A2BBC61C3000A1DFD /* MpesaBalancesSingleCardView.swift */,
 			);
 			path = mpesa;
 			sourceTree = "<group>";
@@ -322,6 +324,7 @@
 		19BD3F3E2BBC6406000A1DFD /* supportingViews */ = {
 			isa = PBXGroup;
 			children = (
+				19BD3F312BB5DADA000A1DFD /* MpesaBalanceView.swift */,
 				19BD3F112BAF37A8000A1DFD /* SendMoneyView.swift */,
 				19BD3F3F2BBC6439000A1DFD /* WithdrawCashView.swift */,
 				19BD3F412BBC6463000A1DFD /* BuyAirtimeView.swift */,
@@ -332,8 +335,19 @@
 				19BD3F4D2BBC6CC5000A1DFD /* MpesaGlobalView.swift */,
 				19BD3F4F2BBC6CE9000A1DFD /* MpesaAccountView.swift */,
 				19BD3F512BBC6FAD000A1DFD /* MpesaStatementView.swift */,
+				19984C5E2BBEA3D60002527B /* MpesaMapKitView.swift */,
 			);
 			path = supportingViews;
+			sourceTree = "<group>";
+		};
+		19BD3F532BBEA13E000A1DFD /* mainMpesaViews */ = {
+			isa = PBXGroup;
+			children = (
+				191680BD2BADA83400A9A985 /* MpesaView.swift */,
+				19BD3F3A2BBC61C3000A1DFD /* MpesaBalancesSingleCardView.swift */,
+				19984C5C2BBEA2B10002527B /* BottomGridView.swift */,
+			);
+			path = mainMpesaViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -409,6 +423,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19984C5D2BBEA2B10002527B /* BottomGridView.swift in Sources */,
 				19BD3F162BAF3970000A1DFD /* ChatbotView.swift in Sources */,
 				191680D02BAED23700A9A985 /* CarouselImageModel.swift in Sources */,
 				191680DE2BAF1E4F00A9A985 /* DataManager.swift in Sources */,
@@ -447,6 +462,7 @@
 				19BD3F462BBC68EF000A1DFD /* LipaNaMpesaView.swift in Sources */,
 				191680BE2BADA83400A9A985 /* MpesaView.swift in Sources */,
 				19BD3F522BBC6FAD000A1DFD /* MpesaStatementView.swift in Sources */,
+				19984C5F2BBEA3D60002527B /* MpesaMapKitView.swift in Sources */,
 				191680D52BAEDA1500A9A985 /* CardModel.swift in Sources */,
 				19BD3F322BB5DADA000A1DFD /* MpesaBalanceView.swift in Sources */,
 				19BD3F372BBC5F13000A1DFD /* MpesaCardDataModel.swift in Sources */,

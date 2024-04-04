@@ -1,12 +1,12 @@
 [
     {
         "name" : "Send Money",
-        "icon" : "send",
+        "icon" : "send-money",
         "type" : "send_money"
     },
     {
         "name" : "Withdraw Cash",
-        "icon" : "airtime",
+        "icon" : "mobile-payment",
         "type" : "withdraw_cash"
     },
     {
@@ -21,27 +21,27 @@
     },
     {
         "name" : "Bill Manager",
-        "icon" : "basket",
+        "icon" : "receipt",
         "type" : "bill_manager"
     },
     {
         "name" : "Loans & Savings",
-        "icon" : "basket",
+        "icon" : "mobile-payment",
         "type" : "loans_savings"
     },
     {
         "name" : "Fuliza M-PESA",
-        "icon" : "basket",
+        "icon" : "mobile-payment",
         "type" : "fuliza_mpesa"
     },
     {
-        "name" : "M_PESA Global",
-        "icon" : "basket",
+        "name" : "M-PESA Global",
+        "icon" : "globe",
         "type" : "mpesa_global"
     },
     {
         "name" : "My Account",
-        "icon" : "basket",
+        "icon" : "account",
         "type" : "account"
     }
 ]
