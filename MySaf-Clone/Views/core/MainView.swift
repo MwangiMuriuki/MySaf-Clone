@@ -28,7 +28,7 @@ struct MainView: View {
                 .navigationTitle("M-PESA")
 
 
-            UtilitiesView()
+            FavouritesView()
                 .tabItem {
                     Image("saf-logo")
                 }
