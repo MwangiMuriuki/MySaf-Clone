@@ -1,0 +1,68 @@
+[
+    {
+        "name" : "Airtime Top Up",
+        "icon" : "call",
+        "type" : "airtime_top_up",
+        "is_shortcut" : false
+    },
+    {
+        "name" : "Bill Manager",
+        "icon" : "receipt",
+        "type" : "bill_manager",
+        "is_shortcut" : true
+    },
+    {
+        "name" : "Buy Airtime",
+        "icon" : "airtime",
+        "type" : "buy_airtime",
+        "is_shortcut" : true
+    },
+    {
+        "name" : "Data, Calls & SMS",
+        "icon" : "airtime",
+        "type" : "data_calls_airtime",
+        "is_shortcut" : true
+    },
+    {
+        "name" : "Fuliza M-PESA",
+        "icon" : "mobile-payment",
+        "type" : "fuliza_mpesa",
+        "is_shortcut" : false
+    },
+    {
+        "name" : "Lipa na M-PESA",
+        "icon" : "basket",
+        "type" : "lipa_na_mpesa",
+        "is_shortcut" : false
+    },
+    {
+        "name" : "Loans & Savings",
+        "icon" : "mobile-payment",
+        "type" : "loans_savings",
+        "is_shortcut" : false
+    },
+    {
+        "name" : "M-PESA Statements",
+        "icon" : "feather-payment",
+        "type" : "mpesa_statements",
+        "is_shortcut" : false
+    },
+    {
+        "name" : "Scan QR",
+        "icon" : "scan",
+        "type" : "scan_qr",
+        "is_shortcut" : false
+    },
+    {
+        "name" : "Send Money",
+        "icon" : "send-money",
+        "type" : "send_money",
+        "is_shortcut" : false
+    },
+    {
+        "name" : "Withdraw Cash",
+        "icon" : "mobile-payment",
+        "type" : "withdraw_cash",
+        "is_shortcut" : false
+    }
+]
